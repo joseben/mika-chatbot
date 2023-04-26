@@ -1,0 +1,317 @@
+version: "3.1"
+nlu:
+- intent: kmrl_md
+  examples: |
+    - who is the md of kochi metro
+    - who is the managing director of kochi metro
+    - who manages kochi metro
+    - md of kochi metro
+    - what is the name of md of kochi metro
+    - what is the name of ceo of kochi metro
+    - what is the name of managing director of kochi metro
+    - what is the name of chief executive officer of kochi metro
+    - managing director of kochi metro
+    - who is loknath behera
+    - is loknath behara md of kochi metro
+    - is loknath behara ceo of kochi metro
+    - is loknath behara managing director of kochi metro
+    - is loknath behara chief executive officer of kochi metro
+    - kochi metro md
+    - kochi metro managing director
+    - ceo of kochi metro
+    - who is the ceo of kochi metro
+    - who is the chief executive officer of kochi metro
+    - can you tell me who is the md of kochi metro
+    - please tell me who is the md of kochi metro
+    - tell me who is the md of kochi metro
+    - can you tell me who is the managing director of kochi metro
+    - please tell me who is the managing director of kochi metro
+    - tell me who is the managing director of kochi metro
+    - can you tell me who is the ceo of kochi metro
+    - please tell me who is the ceo of kochi metro
+    - tell me who is the ceo of kochi metro
+    - can you tell me who is the chief executive officer of kochi metro
+    - please tell me who is the chief executive officer of kochi metro
+    - tell me who is the chief executive officer of kochi metro 
+- intent: water_metro
+  examples: |
+    - what is water metro
+    - can you tell me about water metro
+    - tell me about water metro
+    - when did water metro start
+    - please tell me about water metro
+    - where is water metro
+    - water metro
+    - who owns water metro
+    - is water metro owned by kmrl
+    - can you tell me something about water metro
+- intent: fisat
+  examples: |
+    - where is fisat
+    - tell me about fisat
+    - what is fisat
+- intent: mika_name
+  examples: |
+    - who are you
+    - what is your name
+    - your name
+    - tell me your name
+    - please tell me your name
+    - what do you call yourself
+    - name
+    - can you tell me your name
+    - do you know who you are
+    - do you know your name
+    - hey, can you tell me your name
+    - what are you
+- intent: mika_info
+  examples: |
+    - what can you do for me
+    - what can you do
+    - can you guide me
+    - what is your purpose
+    - state your purpose
+    - what are you doing here
+    - why are you here
+    - what are you here for
+    - what is the point of you
+    - why were you made
+    - why were you created
+    - who developed you
+    - who created you
+    - who made you
+- intent: ticket_concession
+  examples: |
+    - what are the ticket discounts available in kochi metro
+    - are there any ticket discounts in kochi metro
+    - can you tell me about ticket discounts
+    - please tell me about ticket discounts
+    - tell me about ticket discounts
+    - will i get a ticket discount
+    - can I get a ticket discount
+    - will you please give me a ticket discount
+    - please give me a ticket discount
+    - any discounts
+    - what are the ticket concessions available in kochi metro
+    - are there any ticket concessions available in kochi metro
+    - can you tell me about ticket concessions
+    - please tell me about ticket concessions
+    - tell me about ticket concessions
+    - can I get a ticket concession
+    - will I get a ticket concession
+    - will you please give me a ticket concession
+    - please give me a ticket concession
+    - what are the fare discounts available in kochi metro
+    - are there any fare discounts in kochi metro
+    - can you tell me about fare discounts
+    - please tell me about fare discounts
+    - tell me about fare discounts
+    - can I get a fare discounts
+    - will I get a fare discounts
+    - will you please give me a fare discount
+    - please give me a fare discount
+    - what are the fare concessions available in kochi metro
+    - are there any fare concessioconcessionsns in kochi metro
+    - can you tell me about fare concessions
+    - please tell me about fare concessions
+    - tell me about fare concessions
+    - can I get a fare concessions
+    - will I get a fare concessions
+    - will you please give me a fare concessions
+    - please give me a fare concessions
+    - what are the price concessions available in kochi metro
+    - are there any price concessioconcessionsns in kochi metro
+    - can you tell me about price concessions
+    - please tell me about price concessions
+    - tell me about price concessions
+    - can I get a price concessions
+    - will I get a price concessions
+    - will you please give me a price concessions
+    - please give me a price concessions
+- intent: weather_info
+  examples: |
+    - how is the weather today
+    - what is the temperature today
+    - weather report
+    - can you tell me the weather report
+    - can you tell me about the weather
+- intent: kmrl_mascot
+  examples: |
+    - does kochi metro have a mascot
+    - who is the mascot of kochi metro
+    - what is the mascot of kochi metro
+    - who is milu
+    - what is milu
+    - who is the blue elephant that I see everywhere
+- intent: kmrl_water_metro_mascot
+  examples: |
+    - does water metro have a mascot
+    - who is the mascot of water metro
+    - what is the mascot of water metro
+    - who is jengu
+    - what is jengu
+    - who is the blue fish that I see here
+- intent: kids_songs
+  examples: |
+    - can you play me a song
+    - please play me a song
+    - sing for me
+    - will you sing a song for me
+    - please sing a song for me
+    - sing a song
+    - play a song
+    - sing
+- intent: kids_dance
+  examples: |
+    - can you dance
+    - please dance for me
+    - dance for me
+    - will you dance for me
+    - please dance for me
+    - please dance
+    - show me your moves
+    - show me a few steps
+    - dance
+- intent: bus_info
+  examples: |
+    - where can i find a bus
+    - where is the ksrtc 
+    - how can i find a bus 
+    - can you give me a information about bus services
+- intent: station_info
+  examples: |
+    - which station is this
+    - what station is this
+    - how many platforms are there in [aluva](station)
+    - how many platforms are there in [Pulinchodu](station)
+    - how many platforms are there in  [Companypady](station)
+    - how many platforms are there in  [Ambattukavu](station)
+    - how many platforms are there in  [Muttom](station)
+    - how many platforms are there in  [Kalamassery](station)
+    - how many platforms are there in  [Cochin University](station)
+    - how many platforms are there in  [Pathadipalam](station)
+    - how many platforms are there in  [Edapally](station)
+    - how many platforms are there in  [Changampuzha Park](station)
+    - how many platforms are there in  [Palarivattom](station)
+    - how many platforms are there in  [JLN Stadium](station) 
+    - how many platforms are there in  [Kalamassery](station)
+    - how many platforms are there in  [SN Junction](station)
+    - how many platforms are there in  [Vadakkekotta](station)
+    - how many platforms are there in  [Pettah](station)
+    - how many platforms are there in  [Thaikoodam](station)
+    - how many platforms are there in  [CUSAT](station)
+    - how many platforms are there in  [Vallarpadam](station)
+- intent: misc_ques
+  examples: |
+    - do you know I am
+    - do you know me
+    - what do you think you are doing
+- intent: onam
+  examples: |
+    - what is onam
+    - where is onam celebrated
+    - which is the state festival of kerala
+    - state festival of kerala
+    - harvest festival of kerala
+    - which is the harvest festival of kerala
+    - tell me something about onam
+    - tell me someting about harvest festival of kerala
+    - tell me something about the state fstival of kerala
+    - who comes for onam
+    - why is onam celebrated
+    - what makes onam special
+    - what do you do in onam
+    - what is the official festival of kerala
+    - official festival of kerala
+    - can you tell me something about onam
+    - can you tell me something about the state festival of kerala
+    - what is the main festival of kerala
+    - when is onam celebrated
+    - what is onam sadya
+- intent: thrissur_pooram
+  examples: |
+    - what is thrissur pooram
+    - where is thrissur pooram celebrated
+    - tell me something about thrissur pooram
+    - what makes thrissur pooram special
+    - what do you do in thrissur pooram
+    - can you tell me something about thrissur pooram
+- intent: kerala_boat_festival
+  examples: |
+    - what is kerala boat festival
+    - where is kerala boat festival celebrated
+    - tell me something about kerala boat festival
+    - why is kerala boat festival celebrated
+    - what makes kerala boat festival special
+    - what do you do in kerala boat festival
+    - can you tell me something about kerala boat festival
+    - what is vallam kali
+    - tell me about vallam kali
+- intent: vishu
+  examples: |
+    - what is vishu
+    - where is vishu celebrated
+    - tell me something about vishu
+    - why is vishu celebrated
+    - what makes vishu special
+    - what do you do in vishu
+    - can you tell me something about vishu
+    - what is spring festival of kerala
+    - where is spring festival of kerala
+    - tell me something about spring festival of kerala
+    - why is spring festival of kerala celebrated
+    - what makes spring festival of kerala special
+    - what do you do in spring festival of kerala
+    - can you tell me something about spring festival of kerala
+    - who celebrates vishu
+- intent: biennale
+  examples: |
+    - what is kochi biennale
+    - what is kochi-muziris biennale
+    - where is kochi biennale conducted
+    - when is kochi biennale conducted
+    - where is kochi-muziris biennale conducted
+    - when is kochi-muziris biennale conducted
+- intent: travel_passes
+  examples: |
+    - are there any passes for frequent travellers
+    - is there any concession for frequent travellers
+    - can you tell me about the travel passes available in kochi metro
+    - what is the price of single day pass
+    - what is price of weekend pass
+    - what is price of 3 day pass
+    - what is price of 7 day pass
+    - what is price of 15 day pass
+    - what is price of 30 day pass
+    - what is price of 45 day pass
+    - what is the unlimited travel pass
+    - is there a student travel pass
+- lookup: station
+  examples: |    
+    - Aluva
+    - Pulinchodu
+    - Companypady
+    - Ambattukavu
+    - Muttom
+    - Kalamassery
+    - Cochin University
+    - Pathadipalam
+    - Edapally
+    - Changampuzha Park
+    - Palarivattom
+    - JLN Stadium
+    - Kaloor
+    - Lissie
+    - MG Road
+    - Maharaja's College
+    - Ernakulam North
+    - Edappally
+    - Changampuzha Park 
+    - Palarivattom 
+    - Vallarpadam
+    - CUSAT   
+    - Vyttila
+    - Thaikoodam
+    - Pettah
+    - Vadakkekotta 	
+    - SN Junction

@@ -1,0 +1,125 @@
+version: "3.1"
+
+intents:
+  - kmrl_md
+  - water_metro
+  - fisat
+  - mika_name 
+  - mika_info
+  - ticket_concession
+  - weather_info
+  - kmrl_mascot
+  - kmrl_water_metro_mascot
+  - kids_songs
+  - kids_dance
+  - bus_info
+  - station_info
+  - misc_ques
+  - onam
+  - thrissur_pooram
+  - kerala_boat_festival
+  - vishu
+  - biennale
+
+responses:
+  utter_kmrl_md:
+  - text: "Mr. Loknath Behera is the managing director of Kochi Metro."
+  - text: "Mr. Loknath Behera is the chief executive officer of Kochi Metro." 
+  utter_water_metro:
+  - text: "Kochi water metro, under the KMRL was inaugrated on 25th April, 2023. It is an integrated ferry transport system serving the Greater Kochi region. It connects 15 routes spread across 10 islands in and around Kochi with a fleet of 78 fast, electrically propelled hybrid ferries."
+  - text: "The Kochi Water metro is an integrated ferry transport system serving the Greater Kochi region, under the KMRL. It was inaugrated on 25th April, 2023. It connects 15 routes spread across 10 islands in and around Kochi with a fleet of 78 fast, electrically propelled hybrid ferries."
+  utter_fisat:
+  - text: "Federal Institute of Science And Technology is a private, self-financing engineering college, established and run by the Federal Bank Officers' Association Educational Society. It is located in Angamaly. It is one of the top private engineering colleges in Kerala." 
+  - text: "Federal Institute of Science And Technology in Angamaly is a private, self-financing engineering college, established and run by the Federal Bank Officers' Association Educational Society. It is one of the top private engineering colleges in Kerala."
+  - text: "Established and run by Federal Bank Officers' Association Educational Society, Federal Institute of Science And Technology in Angamaly is a private, self-financing engineering college. It is one of the top private engineering colleges in Kerala."
+  utter_mika_name:
+  - text: "My name is Mika, the bot! I was developed for the Kochi metro by FISAT."
+  utter_mika_info:
+  - text: "Developed by FISAT under the guidance of Kochi metro, I am here to answer queries related to Kochi metro, guide and assist you with your travels in the Kochi metro"
+  - text: "I can help you by answering queries related to Kochi metro. I am here to guide and assist you with your travels in the Kochi metro. I was developed for Kochi metro by FISAT" 
+  - text: "I am the Kochi metro robot named Mika! I was developed by FISAT under the guidance of KMRL to answer queries related to Kochi metro, guide and assist you with your travels in the Kochi metro."
+  utter_ticket_concession:
+  - text: "Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking. During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. You can also avail various passes according to your travel needs at the ticket counter." 
+  - text: "During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking. You can also avail various passes according to your travel needs at the ticket counter." 
+  - text: "You can also avail various passes according to your travel needs at the ticket counter. During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking."
+  utter_travel_passes:
+  - text: "A single day pass costs rupees 125. A weekend pass costs rupees 230. A 3 day pass costs rupees 280. A 7 day pass costs rupees 550. A 15 day pass costs rupees 1150. A 30 day pass costs rupees 2200. A 45 day pass costs rupees 3200. A one day student pass costs rupees 50. One month student pass costs rupees 900. Student ID is required for availing student passes."
+  utter_weather_info:
+  - text: "I will take a rain check on that question"
+  - text: "I do not know. Will you please go and check for me?"
+  - text: "I hope it rains today"
+  - text: "It sure seems hot here."
+  - text: "It's so hot that I wish I could sweat"
+  - text: "It seems very windy. Be sure not to fly away!" 
+  utter_kmrl_mascot:
+  - text: "The kochi metro mascot is a flying baby elephant named Milu. The name Milu is derived from Ancient Slavic elements meaning dear and gracious" 
+  - text: "Milu, the flying baby elephant that you see around the station is the mascot of kochi metro. The name milu comes from ancient slavic elements. It means dear and gracious"
+  - text: "Milu the mascot of kochi metro is blue flying baby elephant. The origins of the name milu are from acient slavic elements. It means dear and gracious"
+  utter_kmrl_water_metro_mascot:
+  - text: "The kochi water metro mascot is jengu, a blue and gold fish. It is based on the red line torpedo barb and named after the water spirit jengu, who according to sawa ethnic groups is a symbol of good luck, healing and protection"
+  - text: "Jengu is the name of the blue and gold fish that you see around the kochi water metro. It is named after the water spirit jengu who symbolizes good luck, healing and protection according to sawa ethnic group"
+  - text" " The name of the kochi water metro mascot is Jengu, modelled after the red line torpedo barb. It is a symbol of good luck, healing and protection and is named after the water spirit from Cameroon also named Jengu"
+  utter_kids_songs:
+  - text: "Sure! I like singing songs"
+  - text: "Of course! I am always here to entertain you."
+  - text: "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "Let's do this! Sing with me! Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "I sure have a beautiful voice. Let us sing together! Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "Baby shark dododod, baby shark dodododo"
+  utter_kids_dance:
+  - text: "I got some moves I would love to show"
+  - text: "It might not look like it but I sure have some moves."
+  - text: "Let's dance!"
+  - text: "It's time to party"
+  - text: "I like to move it, move it. I like to move it!"
+  - text: "It's the time to disco!"
+  utter_bus_info:
+  - text: "I can direct you to the help desk"
+  utter_station_info:
+  - text: ""
+  utter_misc_ques:
+  - text: "You are who you are"
+  - text: "I would love to know"
+  - text: "You are what you eat"
+  - text: "I wish I did, alas it is not so"
+  - text: "I am but a simple bot. Please do not hurt me."
+  - text: "I may not know the answer to that question but I do know about the kochi metro"
+  utter_onam:
+  - text: "The harvest festival of Kerala is known as Onam. The celebrations of onam are related to mythology as well as old agricultural practices. The celebrations for Onam are held for ten days, beginning with malayalam month of Chingam or August-September as per the local calendar. One of the main highlights of Onam is the onam sadhya, which traditionally includes over 25 dishes served over a banana leaf"
+  - text: "Onam is the offcial festival of Kerala. It is a harvest festival with roots in mythology. It celebrates the return of the benevolent king Maveli from the underworld. The celebrations are held for ten days. One of the main highlights of Onam is the onam sadhya, which traditionally includes over 25 dishes served over a banana leaf"
+  - text: "One of the most famous festivals of Kerala is Onam. It is the harvest festival of Kerala with a mythological background. It celebrates the return of the benevolent demon king, Maveli to his subjects bringing with him an abundance of good harvest. The onam sadhya, which traditionally consists of over 25 dishes served over a banana leaf, is one of the festival's main attractions. "
+  - text: "Onam is a ten-day long harvest festival celebrated in Kerala. This occasion marks the return of bemevolent demon King Maveli to his subjects. It is celebrated in the malayalam month of Chingam or august-september months in the local calendar. The onam sadhya, which traditionally consists of over 25 dishes served over a banana leaf, is one of the festival's main attractions."
+  utter_thrissur_pooram:
+  - text: "Thrissur pooram is an annual hindu temple festival held in thrissur, Kerala. It is held at the Vadakkunnathan temple in thrissur every year on the day when the moon rises with the pooram star in the malayalam calendar month of medam. It is considered one of the greatest gatherings in Asia. The highlights of the event includes beautifully adorned elephants, intricately designed parasols and percussion music known as chenda"
+  - text: "Held in honor of Lord Shiva at the Vadakkunnathan temple in Thrissur, thrissur pooram is an annual hindu festival celebrated in the malayalam month of medam. It is considered to be one of the greatest gatherings in Asia. Major attractions in the thrissur pooram are the caparisoned elephants, beautiful parasols and chenda melam- percussion music popular in Kerala"
+  utter_kerala_boat_festival:
+  - text: "Vallamkali or the snake boat races are conducted usually during the season of the harvest festival Onam. This tradition of singing aloud the boat song or vanchipattu along with unified rowing is more than 400 years old. The boats used are around 100 to 120 feet long. These races are a symbol of enjoyment and teamwork"
+  - text: "Onam is the season of vallamkali also known as snake boat races. It involves singing aloud songs known as vanchipattu while rowing the boat towrds victory. This tradition is more than 400 years old. The boats used are around 100 to 120 feet long. These races are a symbol of enjoyment and teamwork."
+  - text: "A symbol of teamwork and enjoyment, vallamkali or snake boat races are a tradition older than 400 years. It includes rowing the 100 to 120 feet long snake boats to victory while singling aloud the rowing songs known as vanchipattu."
+  utter_vishu:
+  - text: "Vishu is another harvest festival of Kerala similar to onam. It falls on the first day of the malayalam month of medam that is on April 14th or April 15th of the local calendar. An offering of flowers especially the indian labernum along with fruits, vegetables, rice, coins and gifts are prepared to be seen as the first thing upon waking up. A sadhya or the traditional luch on banana leaf and fireworks at night are one of the highlights of the festival"
+  - text: "Another harvest festival of Kerala is Vishu. It is celebrated on the first day of the malayalam month of medam, that is April 14th or April 15th. One tradition of the festival is to prepare an offerring of flowers, mainly the indian labernum, friuts, vegetables, rice, coins and gifts. It is the first thing to be seen on the morning of Vishu. This festival is also marked the traditional lunch on a banana leaf and fireworks at night"
+  utter_biennale:
+  - text: "Kochi-Muizirius biennale is a government initiative organized to create an international platform for art in India. It aims to showcase and debate new Indian and international aesthetics and experiences and enable a dialogue among artist, curators, cultural practioners and the public"
+  - text: "Kochi-MUizirius biennale is an international platform for art organized by the government of India in order to strengthen contemporary art infrastructure and broaden public access to art across India."
+  - text: "A government of India initiative, the Kochi-Muzirius biennale is a celebration of contemporary art and a pathway to broaden public access to art across India. It aims to genreate and debate a dialogue among artist, curators, cultural practioners and the public."
+
+entities:
+- station
+slots:
+  location:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: station
+
+actions:
+- action_remember_where
+- action_tell_time
+- action_time_difference
+- action_handle_travel_request
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
