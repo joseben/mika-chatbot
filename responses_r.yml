@@ -1,0 +1,64 @@
+version: "3.1"
+
+intents:
+  - hospitals
+  - random_facts
+  - first_aid
+  - like
+  - love
+  - india_politics
+  - lulu_mall
+  - cherai_beach
+  - metro_facilities
+  - accomodation
+  - station_facilities
+  - tourist_spots
+  - india_facts
+  - kerala_facts
+  - snack
+  - restaurant
+  - jokes
+  - station_facilities_queries
+
+
+
+responses:
+  utter_hospitals:
+  - text: "The hospitals closest to the metro route are Ernakulam General Hospital near Maharaja college metro station, Medical Trust Hospital near Ernakulam south metro Station, Lisie Hospital near town hall metro station, Renai Medicity Hospital near palarivattom metro station, M.A.J. Hospital near edapally metro station and Kinder Multispeciality Hospital near Pathadipalam metro station."
+  utter_random_facts:
+  - text: "Yes, of course. Did you know that a camel has three eyelids? One of these eyelids is transparent and helps keep out sand and dust."
+  utter_first_aid:
+  - text: "For medical help, inform the need to the nearest kochi metro staff who will assist you further"
+  utter_like:
+  - text: "aww thank you! I like you too."
+  - text: "Why?"
+  - text: "thank you!, but may know the reason?"
+  utter_love:
+  - text: "I would like to say the same but we just met"
+  - text: "I am honored, but I am a bot and  am incapable of love"
+  utter_india_politics:
+  - text: "India has six recogonised national parties and 57 recogonised state parties. Bharatiya Janata Party or B J P is currently the ruling party of India and the Left Democratic front or L D F is the party currently in office on Kerala."
+  utter_lulu_mall:
+  - text: "The nearest station to lulu mall is edapally metro station. The mall is directly connected to the station by the lulu mall skywalk which can be used by passengers to reach lulu mall directly"
+  utter_cherai_beach:
+  - text: "Cherai beach can be accessed by exiting the metro either at the Kalamassery metro station 1 kilometers away from the beach or M G road metro station which is 12 kilometers away from the beach by road."
+  utter_metro_facilities:
+  - text: "Kochi metro provides free Wifi service to the commuters using the metro trains. While the metro do not have seperate compartments for women, a seating arrangement is followed where priority is given to those who need it. This allows disabled, elderly, pregnant women, women with children and the injured to ride the public transport with equal degree of access and comfort as normal people. Each coach of the metro is air conditioned and toilet facilities are available in the metro stations"
+  utter_accomodation:
+  - text: "Kochi Metro Rail provide executive dormitory accommodation in its stations for visitors and tourists. The rooms are fully air-conditioned with locker facilities, free WiFi, round-the-clock check-in and check-out facility and security cameras. There will be more than 200 beds in the facility. Each bed will have private space with reading light and phone charging point."
+  utter_station_facilities:
+  - text: "Each metro station has toilet, lift, elevator and stair facilities. The Kochi Metro provides disabled-friendly stations with facilities like escalators, ramps, lifts, engraved paths for visually challenged persons. Adaptation of toilets for wheelchair users, Braille symbols and auditory signals in elevators or lifts and warning signals at appropriate places have been ensured."
+  utter_tourist_spots:
+  - text: "Kochi is a city known for its rich history and trading prowess. I would suggest Fort kochi with its vibrant beaches, Hill palace with its exquisite collection of knowledge, jew street with its antique market where you can buy several amazing artifacts, Keralan crafts, aromatic spices and vintage collectibles to name a few."
+  utter_india_facts:
+  - text: "The world's first university was established in Takshila in 700 BC. More than 10500 students from all over the world studied more than 60 subjects. The University of Nalanda built in the 4th century was one of the greatest achievements of ancient India in the field of education."
+  utter_kerala_facts:
+  - text: "The Padmanabhaswamy Temple in kerala is the richest temple on the globe because of its towering assets of gold and precious stones."
+   utter_snack:
+  - text: "Each metro station hosts a variety of food stalls and stores and provides free drinking water within its premises."
+  utter_restaurant:
+  - text: "A few of the notable restaurants in kochi are Sri Muruga Café in Poonathara near Thripunithara, Grand Pavilion in Ernakulam South and Ojeen in marine drive"
+  utter_jokes:
+  - text: "Why can't you fart in an apple showroom? because it doesnot have any windows."
+  utter_station_facilities_queries:
+  - text: "The stairs and elevators are clearly marked. If they are not found yet then do ask the metro staff for assistance."

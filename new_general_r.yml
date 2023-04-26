@@ -1,0 +1,310 @@
+---
+version: "3.1"
+nlu:
+  - intent: restaurant
+    examples: |
+      - which is the best restaurant near me?
+      - which is the nearest restaurant?
+      - which is the nearest hotel?
+      - what is the name of the best restaurant near me?
+      - mika, tell me the the best restaurant near me?
+      - mika, which is the best restaurant near me?
+      - which is the best hotel near me?
+      - what is the name of the best hotel near me?
+      - mika, tell me the the best hotel near me?
+      - mika, which is the best hotel near me?
+      - mika, which is the nearest five star hotel?
+      - mika, tell me the the best hotel near me?
+      - I am hungry. Where should I go to eat?
+      - Where can I go to eat?
+      - Where can I eat kerala cuisine?
+      - Where can I go to eat kerala cuisine?
+      - Where can go to eat malayali food?
+      - Where can I eat malayali food?
+      - where will I get malayali food?
+      - where can I get food?
+      - Where can I eat food?
+      - Where can I have food?
+      - Where can I eat a meal?
+      - Where can I have a meal?
+      - To eat, where should I go?
+  - intent: kerala_facts
+    examples: |
+      - Tell me something about kerala
+      - Tell me something interseting about kerala
+      - tell me a fact about kerala
+      - What do you know about kerala? 
+      - Tell me an interseting fact about kerala
+      - Tell me a kerala fact.
+      - Mika, Tell me something about kerala
+      - Mika, Tell me something interseting about kerala
+      - Mika, tell me a fact about kerala
+      - Mika, What do you know about kerala?
+      - Mika, Tell me an interseting fact about kerala
+      - Mika, Tell me a kerala fact.
+  - intent: india_facts
+    examples: |
+      - Tell me something about India
+      - Tell me something interseting about India
+      - tell me a fact about India
+      - What do you know about India?
+      - Tell me an interseting fact about India
+      - Tell me a India fact.
+      - Mika, Tell me something about India
+      - Mika, Tell me something interseting about India
+      - Mika, tell me a fact about India
+      - Mika, What do you know about India?
+      - Mika, Tell me an interseting fact about India
+      - Mika, Tell me India fact.
+  - intent: tourist_spots
+    examples: |
+      - Tell me a good place to visit near here
+      - what are the best tourist destinations to visit?
+      - what are the best tourist spots to visit?
+      - tell me a few good tourist spots to visit?
+      - mika, Tell me a good place to visit near here
+      - mika, what are the best tourist destinations to visit?
+      - mika, what are the best tourist spots to visit?
+      - mika, tell me a few good tourist spots to visit?
+      - mika, I am feeling bored. Where can I go to visit?
+      - mika, I am feeling bored. Which are the places that I can visit?
+      - mika, Where can I go to click good pictures?
+      - mika, Where can I go to relax?
+      - mika, tell me a few good places to visit in kerala?
+      - mika, tell me a few places to visit in kerala?
+      - what are the best tourist spots to visit in kerala?
+      - tell me a few good tourist spots to visit in kerala?
+      - mika, Tell me a good place to visit near here
+      - mika, what are the best tourist destinations to visit in kerala?
+      - mika, I want to go somewhere. Where can I go to visit?
+      - mika, I want to go somewhere. Which are the places that I can visit?
+      - mika, Where can I go to click good pics?
+      - good place to visit near me
+      - best tourist destinations to visit
+      - best tourist spots to visit
+      - few good tourist spots to visit
+      - mika, Where can I go to get good pictures?
+      - mika, Where can I go to get good photos?
+      - mika, Where can I go to get good pics?
+      - mika, Where can I go to relax?
+      - mika, tell me a few good places to visit in kerala?
+      - mika, tell me a few places to visit in kerala?
+      - tourist spots.
+      - tourist destinations.
+      - mika, tell me a few good places to visit in kerala please?
+      - mika, tell me a few places to visit in kerala please?
+      - mika, please tell me a few good places to visit in kerala?
+      - mika, please tell me a few places to visit in kerala?
+  - intent: hospitals
+    examples: |
+      - Mika, tell me the nearest hospital?
+      - Mika, tell me the nearest clinic?
+      - where can I find a doctor? 
+      - I need to go to a hospital, tell me where
+      - Is there any hospitals nearby?
+      - hospital
+      - I need a doctor
+  - intent: station_facilities
+    examples: |
+      - Mika, what are the facilities here?
+      - what are the facilities in metro station?
+      - is the wifi free?
+      - is there wifi in the station.
+      - is there a wheel chair ramp around here?
+      - are the washrooms wheelchair friendly?
+      - are the toilets wheelchair friendly?
+      - are the restrooms wheelchair friendly?
+      - can I use wheelchair in the toilets?
+      - can I use wheelchair in the restrooms?
+  - intent: jokes
+    examples: |
+      - tell me a joke.
+      - tell me a joke, mika.
+      - tell me something funny, mika.
+      - are you funny, mika?
+      - make me laugh mika.
+      - mika make me laugh.
+      - I feel sad.
+      - make me laugh.
+      - I want to laugh.
+      - make me happy
+      - mika, make me happy.
+      - tell me something to laugh about.
+      - say a joke.
+      - crack a joke.
+      - do you think you can make me laugh?
+      - can you make me laugh?
+      - give me jokes
+  - intent: accomodation
+    examples: |
+      - will accomodation be provided?
+      - is there wifi at accommodation?
+      - is the wifi at accomodation free?
+      - will stay be provided?
+      - Where can I sleep?
+      - is there locker rooms to keep luggage?
+      - is there storage facilities for bags?
+      - what is the rate for the accommodation?
+      - will there be a c?
+      - will there be stay?
+      - where can I stay?
+      - I want to sleep.
+      - I want to rest.
+      - Mika, I am tired. Where can I sleep?
+      - how much should I pay for the stay?
+      - Is the accommodation safe?
+      - I am tired
+      - I am so tired mika.
+  - intent: metro_facilities
+    examples: |
+      - what are the facilities in the metro?
+      - Mika, what are the facilities in the metro?
+      - Is there a ladies compartment in the metro?
+      - Is there a ladies compartment?
+      - where are the toilets in the metro?
+      - where are the toilets in metro?
+      - Is there a.c. in the metro?
+      - Is the metro air conditioned?
+      - does the metro have security cameras?
+      - Is the metro under surveillance?
+      - Can I stop the metro?
+      - Can I make the metro stop?
+  - intent: lulu_mall
+    examples: |
+      - where is lulu mall?
+      - How can I get to lulu mall?
+      - Which is the nearest station to lulu mall?
+      - how far is the nearest metro station to lulu mall?
+      - nearest metro station to lulu mall
+      - can I reach lulu mall through metro?
+      - is there direct metro to lulu mall?
+      - how to reach lulu mall from [aluva](destination)
+      - how to reach lulu mall from [kochi](destination)
+      - how to reach lulu mall from [ernakulam](destination)
+      - Where is Lulu Mall Kochi found?
+      - I want to go to lulu mall.
+      - i want to go to lulu.
+      - How can I get to lulu?
+      - Which is the nearest station to lulu?
+      - how far is the nearest metro station to lulu?
+      - nearest metro station to lulu
+  - intent: cherai_beach
+    examples: |
+      - where is cherai beach?
+      - how to go to cherai beach?
+      - how to go to cherai beach using metro?
+      - Which is the nearest station to cherai beach?
+      - how far is the nearest metro station to cherai beach?
+      - nearest metro station to cherai beach
+      - can I reach cherai beach through metro?
+      - Where is cherai beach found?
+      - I want to go to cherai beach.
+      - I want to go to cherai.
+      - How can I get to cherai beach?
+      - how to reach cherai beach from [aluva](destination)
+      - how to reach cherai beach from [kochi](destination)
+      - how to reach cherai beach from [ernakulam](destination)
+  - intent: india_politics
+    examples: |
+      - tell me something about Indian politics?
+      - Mika, name a few political parties of india.
+      - Which is the ruling party of India.
+      - Which is the ruling party of kerala
+      - what are some political parties?
+      - politics
+      - political parties.
+      - Indian political Parties
+  - intent: random_facts
+    examples: |
+      - Mika, tell me something.
+      - Mika, tell me something random.
+      - Tell me an interesting fact.
+      - say something mika.
+      - Mika, tell me some random facts.
+      - Mika, tell me a fact.
+      - Mika, do you know anything?
+      - say something.
+  - intent: love
+    examples: |
+      - Mika, I love you.
+      - I love you.
+      - Mika you are in my heart.
+      - You are the only on for me.
+      - You are the one for me.
+      - You are my one and only
+      - I see you in my dreams.
+      - I will die for you.
+      - I cannot live without you.
+      - You are the light of my life
+  - intent: like
+    examples: |
+      - I like you.
+      - I have a crush on you.
+      - I adore you.
+      - You are very cute.
+      - I like your eyes.
+      - your eyes are beautiful.
+      - You are pretty.
+      - You are very beautiful.
+      - You are beautiful.
+  - intent: first_aid
+    examples: |
+      - Mika, where can I get help?
+      - Mika, where can I get Medical help?
+      - where is medical assistance in metro?
+      - tell me how to to get to medical help?
+      - please help me
+      - where can i get first aid?
+      - where is first aid?
+      - where to get medical help?
+      - help me
+      - mika, I need medical help
+  - intent: station_facilities_queries
+    examples: |
+      - where are the stairs?
+      - where are the elevators?
+      - are there lifts in the station? where are they?
+      - where is sanitizer?
+      - where can I get sanitizer?
+      - where are the stairs?
+      - where is the steps?
+  - intent: snack
+    examples: |+
+      - where can I eat something around here?
+      - Where can I drink water?
+      - Is there water around here?
+      - Where can I drink something?
+      - I am thirsty.
+      - I am hungry.
+      - I want food.
+      - I want juice.
+      - I want juice.Where should I go?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
