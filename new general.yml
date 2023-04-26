@@ -1,0 +1,151 @@
+version: "3.1"
+nlu:
+- intent: restaurant
+  examples: |
+    - which is the best restaurant near me?
+    - which is the nearest restaurant?
+    - which is the nearest hotel?
+    - what is the name of the best restaurant near me?
+    - mika, tell me the the best restaurant near me?
+    - mika, which is the best restaurant near me?
+    - which is the best hotel near me?
+    - what is the name of the best hotel near me?
+    - mika, tell me the the best hotel near me?
+    - mika, which is the best hotel near me?
+    - mika, which is the nearest five star hotel?
+    - mika, tell me the the best hotel near me?
+    - I am hungry. Where should I go to eat?
+    - Where can I go to eat?
+    - Where can I eat kerala cuisine?
+    - Where can I go to eat kerala cuisine?
+    - Where can go to eat malayali food?
+    - Where can I eat malayali food?
+    - where will I get malayali food?
+    - where can I get food?
+    - Where can I eat food?
+    - Where can I have food?
+    - Where can I eat a meal?
+    - Where can I have a meal?
+    - To eat, where should I go?
+- intent: kerala_facts
+  examples: |
+    - Tell me something about kerala
+    - Tell me something interseting about kerala
+    - tell me a fact about kerala
+    - What do you know about kerala? 
+    - Tell me an interseting fact about kerala
+    - Tell me a kerala fact.
+    - Mika, Tell me something about kerala
+    - Mika, Tell me something interseting about kerala
+    - Mika, tell me a fact about kerala
+    - Mika, What do you know about kerala?
+    - Mika, Tell me an interseting fact about kerala
+    - Mika, Tell me a kerala fact.
+- intent: India_facts
+  examples: |
+    - Tell me something about India
+    - Tell me something interseting about India
+    - tell me a fact about India
+    - What do you know about India?
+    - Tell me an interseting fact about India
+    - Tell me a India fact.
+    - Mika, Tell me something about India
+    - Mika, Tell me something interseting about India
+    - Mika, tell me a fact about India
+    - Mika, What do you know about India?
+    - Mika, Tell me an interseting fact about India
+    - Mika, Tell me India fact.
+- intent: tourist_spots
+  examples: |
+    - Tell me a good place to visit near here
+    - what are the best tourist destinations to visit?
+    - what are the best tourist spots to visit?
+    - tell me a few good tourist spots to visit?
+    - mika, Tell me a good place to visit near here
+    - mika, what are the best tourist destinations to visit?
+    - mika, what are the best tourist spots to visit?
+    - mika, tell me a few good tourist spots to visit?
+    - mika, I am feeling bored. Where can I go to visit?
+    - mika, I am feeling bored. Which are the places that I can visit?
+    - mika, Where can I go to click good pictures?
+    - mika, Where can I go to relax?
+    - mika, tell me a few good places to visit in kerala?
+    - mika, tell me a few places to visit in kerala?
+    - what are the best tourist spots to visit in kerala?
+    - tell me a few good tourist spots to visit in kerala?
+    - mika, Tell me a good place to visit near here
+    - mika, what are the best tourist destinations to visit in kerala?
+    - mika, I want to go somewhere. Where can I go to visit?
+    - mika, I want to go somewhere. Which are the places that I can visit?
+    - mika, Where can I go to click good pics?
+    - good place to visit near me
+    - best tourist destinations to visit
+    - best tourist spots to visit
+    - few good tourist spots to visit
+    - mika, Where can I go to get good pictures?
+    - mika, Where can I go to get good photos?
+    - mika, Where can I go to get good pics?
+    - mika, Where can I go to relax?
+    - mika, tell me a few good places to visit in kerala?
+    - mika, tell me a few places to visit in kerala?
+    - tourist spots.
+    - tourist destinations.
+    - mika, tell me a few good places to visit in kerala please?
+    - mika, tell me a few places to visit in kerala please?
+    - mika, please tell me a few good places to visit in kerala?
+    - mika, please tell me a few places to visit in kerala?
+- intent: hospitals
+  examples: |
+    - Mika, tell me the nearest hospital?
+    - Mika, tell me the nearest clinic?
+    - Mika, where can I get help?
+    - Mika, where can I get Medical help?
+    - where can I find a doctor? 
+    - where is medical assistance in metro?
+    - tell me how to to get to medical help?
+    - please help me
+    - where can i get first aid?
+    - where is first aid?
+    - where to get medical help?
+    - I need to go to a hospital, tell me where
+    - Is there any hospitals nearby?
+    - hospital
+    - help me
+    - I need a doctor
+    - mika, I need medical help
+- intent: metro_facilities
+  examples: |
+    - Mika, what are the facilities here?
+    - what are the facilities in kochi metro?
+    - is the wifi free?
+    - will accomodation be provided?
+    - will stay be provided?
+    - Where can I sleep?
+    - is there locker rooms to keep luggage?
+    - is there storage facilities for bags?
+    - what is the rate for the accommodation?
+    - will there be a c?
+    - will there be stay?
+    - where can I stay?
+    - I want to sleep.
+    - I want to rest.
+    - Mika, I am tired. Where can I sleep?
+    - how much should I pay for the stay?
+    - Is the accommodation safe?
+    - I am tired
+    - I am so tired mika
+    - 
+    
+
+
+
+
+    
+
+    
+
+
+
+
+ 
+      
