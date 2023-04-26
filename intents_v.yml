@@ -1,0 +1,289 @@
+version: "3.1"
+nlu:
+- intent: washroom
+  examples: |
+    - Can you direct me to the nearest washroom?
+    - Can you direct me to the nearest restroom?
+    - Can you direct me to the nearest ladies room?
+    - Can you direct me to the nearest mens room?
+    - Can you direct me to the nearest gents room?
+    - Can you direct me to the nearest loo?
+    - Can you direct me to the nearest toilet?
+    - Where is the washroom?
+    - Where is the restroom?
+    - Where is the loo?
+    - where is the toilet
+    - Where is the ladies room?
+    - Where is the mens room?
+    - Where is the gents room?
+    - Can you show me the way to the nearest washroom?
+    - Can you show me the way to the nearest loo?
+    - Can you show me the way to the nearest toilet?
+    - Can you show me the way to the nearest restroom?
+    - Can you show me the way to the nearest ladies room?
+    - Can you show me the way to the nearest mens room?
+    - Can you show me the way to the nearest gents room?
+    - Is there any washroom nearby?
+    - Is there any restroom nearby?
+    - Is there any loo nearby?
+    - Is there any toilet nearby?
+    - Is there any ladies room nearby?
+    - Is there any mens room nearby?
+    - Is there any gents room nearby?
+    - I want to go to the washroom
+    - I want to go to the restroom
+    - I want to go to the loo
+    - i want to go to the toilet
+    - I want to go to the mens room
+    - I want to go to the gents room
+    - How can I go to the washroom?
+    - How can I go to the restroom?
+    - How can I go to the loo?
+    - How can I go to the toilet?
+    - How can I go to the mens room?
+    - How can I go to the ladies room?
+    - How can I go to the gents room?
+    - Show me the way to washroom
+    - Show me the way to gents room
+    - Show me the way to loo
+    - Show me the way to ladies room
+    - Show me the way to toilet
+    - Show me the way to mens room
+    - Show me the way to rest room
+    - Please can you tell me where is the restroom?
+    - Please can you tell me where is the washroom? 
+    - Please can you tell me where is the mens room?
+    - Please can you tell me where is the gents room?
+    - Please can you tell me where is the ladies room?
+    - Please can you tell me where is the loo? 
+    - Please can you tell me where is the toilet? 
+    - Restroom
+    - Loo
+    - Toilet
+    - Ladies room
+    - Mens room
+    - Gents room  
+  
+- intent: ticket_counter
+  examples: |
+    - Can you show me the way to ticket counter
+    - Where is the ticket counter
+    - Tell me where is the ticket counter
+    - Show me where is the ticket counter
+    - Ticket counter
+    - Can you direct me to the ticket counter
+    - How to go to the ticket counter
+    - How can I get to the ticket counter
+    - Where can I buy the tickets
+    - How to buy tickets
+    - can you give me a ticket
+    - Ticket
+
+- intent: vande_bharat
+  examples: |
+    - What is vande bharat
+    - what is vande bharat express
+    - vande bharat express
+    - When did vande bharat start running
+    - inaugration of vande bharat
+    - tell me something about vande bharat
+    - mika, what is vande bharat
+    - how much distance will vande bharat cover
+    - Where does vande bharat start from
+    - which is the last stop of vande bharat
+    - which is the first stop of vande bharat
+    - where does vande bharat stop
+    - who inaugrated vande bharat
+
+- intent: prime_minister
+  examples: |
+    - Prime minister
+    - prime minister of India
+    - indian prime minister
+    - who is the indian prime minister
+    - who is the prime minister of india
+    - who is the prime minister
+    - who is the current prime minister
+    - who is the latest prime minister
+    - is Narendra Modi the prime minister of india
+    - is Narendra Modi the prime minister
+    - is Narendra Modi the indian prime minister
+    - tell me the name of the prime minister
+    - tell me the name of prime minister of india
+    - tell me the name of the indian prime minister
+    - who is Narendra Modi
+    - what is Narendra Modi
+    - indian prime minister's name
+    - prime minister of india's name
+    - prime minister's name
+
+- intent: president
+  examples: |
+    - president
+    - president of India
+    - indian president
+    - who is the indian president
+    - who is the president of india
+    - who is the president
+    - who is the current president
+    - who is the latest president
+    - is Droupadi Murmu the president of india
+    - is Droupadi Murmu the president
+    - is Droupadi Murmu the indian president
+    - tell me the name of the president
+    - tell me the name of president of india
+    - tell me the name of the indian president
+    - who is Droupadi Murmu
+    - what is Droupadi Murmu
+    - indian president's name
+    - president of india's name
+    - president's name
+
+- intent: chief minister
+  examples: |
+    - chief minister
+    - chief minister of kerala
+    - kerala chief minister
+    - who is the chief minister of kerala
+    - who is the chief minister
+    - who is the current chief minister
+    - who is the latest chief minister
+    - is Pinarayi Vijayan the chief minister of kerala
+    - is Pinarayi Vijayan the chief minister
+    - is Pinarayi Vijayan the kerala chief minister
+    - tell me the name of the chief minister
+    - tell me the name of chief minister of kerala
+    - tell me the name of the kerala chief minister
+    - who is Pinarayi Vijayan
+    - what is Pinarayi Vijayan
+    - kerala chief minister's name
+    - chief minister of kerala's name
+    - chief minister's name
+
+
+- intent: governor
+  examples: |
+    - governor
+    - governor of kerala
+    - kerala governor
+    - who is the governor of kerala
+    - who is the governor
+    - who is the current governor
+    - who is the latest governor
+    - is Arif Mohammed Khan the governor of kerala
+    - is Arif Mohammed Khan the governor
+    - is Arif Mohammed Khan the kerala governor
+    - tell me the name of the governor
+    - tell me the name of governor of kerala
+    - tell me the name of the kerala governor
+    - who is Arif Mohammed Khan
+    - what is Arif Mohammed Khan
+    - kerala governor's name
+    - governor of kerala's name
+    - governor's name
+
+- intent: india_independence
+  examples: |
+    - When did India gain freedom
+    - When was India free
+    - When did India become independent
+    - When did India gain independence
+    - How did India gain independence
+    - How did India become free
+    - Independence day
+    - August 15th
+    - What is the importance of August 15th
+    - What is the significance of August 15th
+    - In which year did India gain independence
+
+- intent: online_booking
+  examples: |
+    - How to book tickets online
+    - How can I buy tickets online
+    - Where do I buy tickets online
+    - Can we book tickts online
+    - Online booking
+    - Online ticket booking
+    - Can I book tickets in my phone
+    - Can I book tickets on my laptop
+    - How do I book tickets online
+    - Is there online ticket booking for kochi metro
+    - does kochi metro have online ticket booking
+    - kochi metro online ticket booking
+
+- intent: celebration_party
+  examples: |
+    - Can I have a party in the Kochi metro
+    - How do I celebrate my birthday in the kochi metro
+    - How do I give a surprise a party in the kochi metro
+    - How to throw a party in the kochi metro
+    - Do I have to book in advance to have a party in the kochi metro
+    - Can I celebrate my birthday in the kochi metro
+    - Can I celebrate my anniversary in the kochi metro
+
+
+- intent: alcohol_offence
+  examples: |
+    - Alcohol in the metro
+    - Is alcohol allowed in the metro
+    - Can I drink alcohol in the metro
+    - Is it illegal to drink in the metro
+    - Will I be arrested for drinking in the metro
+    - How can I drink alcohol in the metro
+    - I want to drink alcohol in the metro
+    - I want alcohol
+    - beer in the metro
+    - Is beer allowed in the metro
+    - Can I drink beer in the metro
+    - Will I be arrested for drinking in the metro
+    - How can I drink beer in the metro
+    - I want to drink beer in the metro
+    - I want beer
+    
+- intent: eating_drinking
+  examples: |
+    - food in the metro
+    - Is food allowed in the metro
+    - Can I eat food in the metro
+    - Is it illegal to eat in the metro
+    - Will I be arrested for eating in the metro
+    - How can I eat food in the metro
+    - I want to eat in the metro
+    - I want food in the metro
+    - I want food
+
+- intent: smoking
+  examples: |
+    - smoking in the metro
+    - Is smoking allowed in the metro
+    - Can I smoke in the metro
+    - Is it illegal to smoke in the metro
+    - Will I be arrested for smoking in the metro
+    - How can I smoke in the metro
+    - I want to smoke in the metro
+    - I want to smoke cigarettes in the metro
+    - I want to smoke
+    - I want cigarette
+
+- intent: fort_kochi
+  examples: |
+    - how to go to fort kochi
+    - nearest station to fort kochi
+    - how can I go to fort kochi through metro
+    - I want to go to fort kochi
+    - How far is fort kochi from the Maharaja's College metro station
+    - Is there metro to fort kochi
+    - which is the nearest station to fort kochi
+    - fort kochi nearest metro station
+
+- intent: marine_drive
+  examples: |
+    - how to go to marine drive
+    - nearest station to marine drive
+    - how can I go to marine drive through metro
+    - I want to go to marine drive
+    - How far is fort marine drive from the MG Road metro station
+    - How far is fort marine drive from the Maharaja's College metro station
+    - Is there metro to marine drive
+    - which is the nearest station to marine drive
+    - marine drive nearest metro station
