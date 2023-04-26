@@ -1,0 +1,224 @@
+version: "3.1"
+nlu:
+- intent: washroom
+  examples: |
+    - Can you direct me to the nearest washroom?
+    - Can you direct me to the nearest restroom?
+    - Can you direct me to the nearest ladies room?
+    - Can you direct me to the nearest mens room?
+    - Can you direct me to the nearest gents room?
+    - Can you direct me to the nearest loo?
+    - Can you direct me to the nearest toilet?
+    - Where is the washroom?
+    - Where is the restroom?
+    - Where is the loo?
+    - where is the toilet
+    - Where is the ladies room?
+    - Where is the mens room?
+    - Where is the gents room?
+    - Can you show me the way to the nearest washroom?
+    - Can you show me the way to the nearest loo?
+    - Can you show me the way to the nearest toilet?
+    - Can you show me the way to the nearest restroom?
+    - Can you show me the way to the nearest ladies room?
+    - Can you show me the way to the nearest mens room?
+    - Can you show me the way to the nearest gents room?
+    - Is there any washroom nearby?
+    - Is there any restroom nearby?
+    - Is there any loo nearby?
+    - Is there any toilet nearby?
+    - Is there any ladies room nearby?
+    - Is there any mens room nearby?
+    - Is there any gents room nearby?
+    - I want to go to the washroom
+    - I want to go to the restroom
+    - I want to go to the loo
+    - i want to go to the toilet
+    - I want to go to the mens room
+    - I want to go to the gents room
+    - How can I go to the washroom?
+    - How can I go to the restroom?
+    - How can I go to the loo?
+    - How can I go to the toilet?
+    - How can I go to the mens room?
+    - How can I go to the ladies room?
+    - How can I go to the gents room?
+    - Show me the way to washroom
+    - Show me the way to gents room
+    - Show me the way to loo
+    - Show me the way to ladies room
+    - Show me the way to toilet
+    - Show me the way to mens room
+    - Show me the way to rest room
+    - Please can you tell me where is the restroom?
+    - Please can you tell me where is the washroom? 
+    - Please can you tell me where is the mens room?
+    - Please can you tell me where is the gents room?
+    - Please can you tell me where is the ladies room?
+    - Please can you tell me where is the loo? 
+    - Please can you tell me where is the toilet? 
+    - Restroom
+    - Loo
+    - Toilet
+    - Ladies room
+    - Mens room
+    - Gents room  
+  
+- intent: ticket_counter
+  examples: |
+    - Can you show me the way to ticket counter
+    - Where is the ticket counter
+    - Tell me where is the ticket counter
+    - Show me where is the ticket counter
+    - Ticket counter
+    - Can you direct me to the ticket counter
+    - How to go to the ticket counter
+    - How can I get to the ticket counter
+    - Where can I buy the tickets
+    - How to buy tickets
+    - can you give me a ticket
+    - Ticket
+
+- intent: vande_bharat
+  examples: |
+    - What is vande bharat
+    - what is vande bharat express
+    - vande bharat express
+    - When did vande bharat start running
+    - inaugration of vande bharat
+    - tell me something about vande bharat
+    - mika, what is vande bharat
+    - how much distance will vande bharat cover
+    - Where does vande bharat start from
+    - which is the last stop of vande bharat
+    - which is the first stop of vande bharat
+    - where does vande bharat stop
+    - who inaugrated vande bharat
+
+- intent: prime_minister
+  examples: |
+    - Prime minister
+    - prime minister of India
+    - indian prime minister
+    - who is the indian prime minister
+    - who is the prime minister of india
+    - who is the prime minister
+    - who is the current prime minister
+    - who is the latest prime minister
+    - is Narendra Modi the prime minister of india
+    - is Narendra Modi the prime minister
+    - is Narendra Modi the indian prime minister
+    - tell me the name of the prime minister
+    - tell me the name of prime minister of india
+    - tell me the name of the indian prime minister
+    - who is Narendra Modi
+    - what is Narendra Modi
+    - indian prime minister's name
+    - prime minister of india's name
+    - prime minister's name
+
+- intent: president
+  examples: |
+    - president
+    - president of India
+    - indian president
+    - who is the indian president
+    - who is the president of india
+    - who is the president
+    - who is the current president
+    - who is the latest president
+    - is Droupadi Murmu the president of india
+    - is Droupadi Murmu the president
+    - is Droupadi Murmu the indian president
+    - tell me the name of the president
+    - tell me the name of president of india
+    - tell me the name of the indian president
+    - who is Droupadi Murmu
+    - what is Droupadi Murmu
+    - indian president's name
+    - president of india's name
+    - president's name
+
+- intent: chief minister
+  examples: |
+    - chief minister
+    - chief minister of kerala
+    - kerala chief minister
+    - who is the chief minister of kerala
+    - who is the chief minister
+    - who is the current chief minister
+    - who is the latest chief minister
+    - is Pinarayi Vijayan the chief minister of kerala
+    - is Pinarayi Vijayan the chief minister
+    - is Pinarayi Vijayan the kerala chief minister
+    - tell me the name of the chief minister
+    - tell me the name of chief minister of kerala
+    - tell me the name of the kerala chief minister
+    - who is Pinarayi Vijayan
+    - what is Pinarayi Vijayan
+    - kerala chief minister's name
+    - chief minister of kerala's name
+    - chief minister's name
+
+
+- intent: governor
+  examples: |
+    - governor
+    - governor of kerala
+    - kerala governor
+    - who is the governor of kerala
+    - who is the governor
+    - who is the current governor
+    - who is the latest governor
+    - is Arif Mohammed Khan the governor of kerala
+    - is Arif Mohammed Khan the governor
+    - is Arif Mohammed Khan the kerala governor
+    - tell me the name of the governor
+    - tell me the name of governor of kerala
+    - tell me the name of the kerala governor
+    - who is Arif Mohammed Khan
+    - what is Arif Mohammed Khan
+    - kerala governor's name
+    - governor of kerala's name
+    - governor's name
+
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
