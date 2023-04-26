@@ -1,0 +1,115 @@
+version: "3.1"
+
+intents:
+  - washrooms 
+  - ticket_counter 
+  - vande_bharat 
+  - prime_minister 
+  - president 
+  - chief_minister 
+  - governor 
+  - india_independence 
+  - online_booking 
+  - celebration_party
+  - alcohol_offence 
+  - eating_drinking 
+  - smoking 
+  - fort_kochi
+  - marine_drive
+
+responses:
+  utter_washroom:
+  - text: "Follow me, I will take you there."
+  - text: "Please follow me"
+  - text: "I will show the way"
+  - text: "Follow me, I will take you there."
+  - text: "It is towards your left"
+  - text: "It is towards your right"
+  - text: "It is straight ahead"
+  - text: "It is right behind"
+    
+
+  utter_ticket_counter:
+  - text: "You can buy the tickets at the ticket counter"
+  - text: "Tickets are available at the ticket counter"
+  - text: "I will show you the way"
+  - text: "Please follow me"
+  - text: "Follow me, I will take you there."
+  - text: "It is towards your left"
+  - text: "It is towards your right"
+  - text: "It is straight ahead"
+  - text: "It is right behind"
+
+  utter_vande_bharat:
+  - text: "The Vande Bharat Express is an indigenously manufactured, semi-high-speed, self-propelled train set, flagged off by Prime Minister Shri Narendra Modi on April 25th 2023, running from Trivandrum to Kasargod, passing through 11 districts, and covering a distance of around 588 kilometres in around 8 hours." 
+  - text: "On April 25, 2023, Prime Minister Shri Narendra Modi flagged off the Vande Bharat Express, a locally built, semi-high-speed, self-propelled train set that will run from Trivandrum to Kasargod, that passes through 11 districts, and travelling a distance of about 588 kilometres in about 8 hours."
+  
+  utter_prime minister:
+  - text: "Narendra Modi was sworn-in as India's prime minister on 30th May 2019, marking the start of his second term in office."
+  - text: "On May 30, 2019, Narendra Modi began his second term as prime minister of India by taking the oath of office."
+  - text: "Narendra Modi is the current and the fourth longest-serving Prime Minister of India."
+  - text: "Narendra Modi is India's current Prime Minister and the country's fourth longest-serving leader."
+
+  utter_president:
+  - text: "Droupadi Murmu is an Indian politician and former teacher who is serving as the 15th and current President of India since July 2022." 
+  - text: "Droupadi Murmu is an Indian politician who has served as India's 15th and current President since July 2022."
+  - text: "Droupadi Murmu is the 15th and current president, having taken office from 25 July 2022."
+  - text: "On 25 July 2022, Droupadi Murmu took office as the 15th president of India, becoming the second woman and the first tribal person to hold the office."
+  
+  utter_chief_minister:
+  - text: "Pinarayi Vijayan is an Indian Communist politician who is the current Chief Minister of Kerala, serving since 25 May 2016." 
+  - text: "Pinarayi Vijayan is the incumbent chief minister; his Left Democratic Front government has been in office since 25 May 2016."
+  - text: "Since May 25, 2016, Indian politician Pinarayi Vijayan has held the position of Chief Minister of Kerala."
+
+  utter_governor:
+  - text: "Arif Mohammad Khan has been the governor of Kerala from September 6, 2019." 
+  - text: "Arif Mohammad Khan is an Indian politician, belonging to Bharatiya Janata Party, who is the current Governor of Kerala, serving since 6 September 2019."
+  - text: "Since 6 September 2019, Arif Mohammad Khan, an Indian politician from Bharatiya Janata Party has held the position of Governor of Kerala."
+
+  utter_india_independence:
+  - text: "Independence Day is celebrated annually on 15 August as a public holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947."
+  - text: "Years of non-violent resistance to British rule, led by Mohandas Gandhi and Jawaharlal Nehru, eventually resulted in Indian independence in 1947. August 15th is celebrated as"
+  - text: "August 15th, known as Independence Day, marks the end of the British rule in 1947 and the establishment of a free and independant Indian nation, achieved through the struggles and sacrifice of the citizens."
+  - text: "India achieved its Independence from British colonial rule on August 15, 1947. The struggle for freedom was a long and tiresome one; witnessing the sacrifices of many freedom fighters, who laid down their lives for their country and fellow citizens. This day honours our freedom fighters, the history of our country, its culture, and the nation's achievements as a whole."
+
+  utter_online_booking:
+  - text: "Please download the Kochi1 App from the Playstore or App Store in order to buy e-tickets."
+  - text: "Tickets can be booked online, via the Kochi1 App, downloadable from the Playstore or App Store."
+  - text: "To purchase e-tickets, please download the Kochi1 App from the Playstore or App Store."
+  - text: "Tickets can be purchased online through the Kochi1 App, which is available for download from the Play Store or App Store."
+  - text: "The Kochi1 App, available for download from the Playstore or App Store, allows for online ticket booking."
+  - text: "You can book tickets online using the Kochi1 app, availiable for download in the Playstore or app store."
+  - text: "You can book tickets online by using the Kochi1 app from the Playstore or the App Store."
+
+  utter_celebration_party:
+  - text: "Please head to the Kochi Metro website, where, within the Projects tab, you can find Celebration of Wheels. Once you click on that, you'll be directed to a page that contains all the information about the events. At the end of the page, a Google Form will be provided; after filling it out, you may proceed with the payment. That's all."
+  - text: "Please visit the Kochi Metro website to find Celebration of Wheels under the Projects tab. When you click on that, a page containing all the details of the events will be displayed. After completing the Google Form at the bottom of the page, you can proceed with the payment."
+  - text: "Go to the Kochi Metro website and look under the Projects tab for Celebration of Wheels. You will be taken to a page that contains all the details about the events once you click on that. You can continue with the payment after completing the Google Form at the bottom of the page."
+  - text:  
+
+  utter_alcohol_offence:
+  - text: "Drunkeness or intoxication may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train."
+  - text: "Consumption of alcoholic beverages inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "Alcohol consumption inside metro facilities is punishable by a Rs. 500 fine, the loss of purchased tickets, or expulsion from the train."
+
+  utter_eating_drinking:
+  - text: "Do not consume eatables and beverages inside the Metro premises."
+  - text: "Consumption of food and drinks inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "Food and drink consumption inside the metro premises may result in a fine of Rs 500, as well as the loss of purchased tickets or expulsion from the train."
+
+  utter_smoking:
+  - text: Consumption of cigarettes inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "In addition to a Rs. 500 fine and the loss of any purchased tickets, smoking inside the metro premises may result in removal from the train."
+  - text: "Smoking inside the metro premises is punishable by a Rs. 500 fine, the loss of purchased tickets, or expulsion from the train."
+  - text: "Please do not smoke within the metro grounds."
+
+  utter_fort_kochi:
+  - text: "The Maharaja College Metro Station is the nearest metro station to Fort Kochi, at a distance of 4 km." 
+  - text: "The nearest Metro Station to Fort Kochi is the Maharaja College metro station, which is 4 kilometres away."
+  - text: "The Maharaja College Metro Station is located around 4 kilometres away from Fort Kochi, making it the nearest station."
+
+  utter_marine_drive:
+  - text: "The MG Metro Station is the nearest metro station to Marine Drive, at a distance of 2 km." 
+  - text: "The nearest Metro Station to Marine Drive is the MG metro station, which is 2 kilometres away."
+  - text: "The MG Metro Station is located around 2 kilometres away from Marine Drive, making it the nearest station."
+  
