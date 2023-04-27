@@ -1,0 +1,429 @@
+version: "3.1"
+
+intents:
+  - affirm
+  - bot_challenge
+  - botname
+  - inquire_time
+  - travel_request
+  - fallback
+  - tell_about_kmrl
+  - react_positive
+  - bye
+  - canthelp
+  - deny
+  - react_negative
+  - thank
+  - greet
+  - goodbye
+  - mood_great
+  - mood_unhappy
+  - kmrl_md
+  - water_metro
+  - fisat
+  - mika_name 
+  - mika_info
+  - ticket_concession
+  - weather_info
+  - kmrl_mascot
+  - kmrl_water_metro_mascot
+  - kids_songs
+  - kids_dance
+  - bus_info
+  - station_info
+  - misc_ques
+  - onam
+  - thrissur_pooram
+  - kerala_boat_festival
+  - vishu
+  - biennale
+  - travel_passes
+  - hospitals
+  - random_facts
+  - first_aid
+  - like
+  - love
+  - india_politics
+  - lulu_mall
+  - cherai_beach
+  - station_wifi
+  - accomodation
+  - station_facilities
+  - tourist_spots
+  - india_facts
+  - kerala_facts
+  - snack
+  - restaurant
+  - jokes
+  - station_facilities_queries
+  - washrooms 
+  - ticket_counter 
+  - vande_bharat 
+  - prime_minister 
+  - president 
+  - chief_minister 
+  - governor 
+  - india_independence 
+  - online_booking 
+  - celebration_party
+  - alcohol_offence 
+  - eating_drinking 
+  - smoking 
+  - fort_kochi
+  - marine_drive
+
+
+responses:
+  utter_greet:
+  - text: "Hey there!"
+  utter_goodbye:
+  - text: "Goodbye :("
+  utter_default:
+  - text: "Sorry, I didn't get that, can you rephrase?"
+  utter_youarewelcome:
+  - text: "You're very welcome."
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_kmrl_md:
+  - text: "Mr. Loknath Behera is the managing director of Kochi Metro."
+  - text: "Mr. Loknath Behera is the chief executive officer of Kochi Metro." 
+  utter_water_metro:
+  - text: "Kochi water metro, under the KMRL was inaugrated on 25th April, 2023. It is an integrated ferry transport system serving the Greater Kochi region. It connects 15 routes spread across 10 islands in and around Kochi with a fleet of 78 fast, electrically propelled hybrid ferries."
+  - text: "The Kochi Water metro is an integrated ferry transport system serving the Greater Kochi region, under the KMRL. It was inaugrated on 25th April, 2023. It connects 15 routes spread across 10 islands in and around Kochi with a fleet of 78 fast, electrically propelled hybrid ferries."
+  utter_fisat:
+  - text: "Federal Institute of Science And Technology is a private, self-financing engineering college, established and run by the Federal Bank Officers' Association Educational Society. It is located in Angamaly. It is one of the top private engineering colleges in Kerala." 
+  - text: "Federal Institute of Science And Technology in Angamaly is a private, self-financing engineering college, established and run by the Federal Bank Officers' Association Educational Society. It is one of the top private engineering colleges in Kerala."
+  - text: "Established and run by Federal Bank Officers' Association Educational Society, Federal Institute of Science And Technology in Angamaly is a private, self-financing engineering college. It is one of the top private engineering colleges in Kerala."
+  utter_mika_name:
+  - text: "My name is Mika, the Metro-bot! I was developed for the Kochi metro by the students of FISAT engineering college, angamaly"
+  - text: "I am Mika, the Metro-bot! I was developed for the Kochi metro by a group of students of FISAT engineering college, angamaly"
+  - text: "I am Mika, the Metro-bot! I was developed for the Kochi metro by a group geniuses from FISAT engineering college"
+  - text: "My name is Mika, the Metro-bot! I was developed for KMRL by the I triple E students of FISAT engineering college"
+  - text: "I am the Kochi metro robot named Mika! I was developed by FISAT for KMRL to answer queries related to Kochi metro, guide and assist you with your travels in the Kochi metro."
+
+  utter_mika_info:
+  - text: "Developed by the students of FISAT for Kochi metro, I am here to answer queries related to Kochi metro, guide and assist you with your travels in the Kochi metro"
+  - text: "I can help you by answering queries related to Kochi metro. I am here to guide and assist you with your travels in the Kochi metro. I was developed for Kochi metro by the students of FISAT" 
+  - text: "I am the Kochi metro robot named Mika! I was developed by FISAT for KMRL to answer queries related to Kochi metro, guide and assist you with your travels in the Kochi metro."
+  utter_ticket_concession:
+  - text: "Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking. During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. You can also avail various passes according to your travel needs at the ticket counter." 
+  - text: "During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking. You can also avail various passes according to your travel needs at the ticket counter." 
+  - text: "You can also avail various passes according to your travel needs at the ticket counter. During non-peak hours that is, from 05:45 am to 08:00 am and from 09:00 pm to 11:00 pm, the tickets are 50% off. Maximum three children below 90cm in height can travel free when accompanied by an adult. It is not applicable for group booking."
+  utter_travel_passes:
+  - text: "A single day pass costs rupees 125. A weekend pass costs rupees 230. A 3 day pass costs rupees 280. A 7 day pass costs rupees 550. A 15 day pass costs rupees 1150. A 30 day pass costs rupees 2200. A 45 day pass costs rupees 3200. A one day student pass costs rupees 50. One month student pass costs rupees 900. Student ID is required for availing student passes."
+  utter_weather_info:
+  - text: "I will take a rain check on that question"
+  - text: "I do not know. Will you please go and check for me?"
+  - text: "I hope it rains today"
+  - text: "It sure seems hot here."
+  - text: "It's so hot that I wish I could sweat"
+  - text: "It seems very windy. Be sure not to fly away!" 
+  utter_kmrl_mascot:
+  - text: "The kochi metro mascot is a flying baby elephant named Milu. The name Milu is derived from Ancient Slavic elements meaning dear and gracious" 
+  - text: "Milu, the flying baby elephant that you see around the station is the mascot of kochi metro. The name milu comes from ancient slavic elements. It means dear and gracious"
+  - text: "Milu the mascot of kochi metro is blue flying baby elephant. The origins of the name milu are from acient slavic elements. It means dear and gracious"
+  utter_kmrl_water_metro_mascot:
+  - text: "The kochi water metro mascot is jengu, a blue and gold fish. It is based on the red line torpedo barb and named after the water spirit jengu, who according to sawa ethnic groups is a symbol of good luck, healing and protection"
+  - text: "Jengu is the name of the blue and gold fish that you see around the kochi water metro. It is named after the water spirit jengu who symbolizes good luck, healing and protection according to sawa ethnic group"
+  - text: " The name of the kochi water metro mascot is Jengu, modelled after the red line torpedo barb. It is a symbol of good luck, healing and protection and is named after the water spirit from Cameroon also named Jengu"
+  utter_kids_songs:
+  - text: "Sure! I like singing songs"
+  - text: "Of course! I am always here to entertain you."
+  - text: "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "Let's do this! Sing with me! Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "I sure have a beautiful voice. Let us sing together! Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky."
+  - text: "Baby shark dododod, baby shark dodododo"
+  utter_kids_dance:
+  - text: "I got some moves I would love to show"
+  - text: "It might not look like it but I sure have some moves."
+  - text: "Let's dance!"
+  - text: "It's time to party"
+  - text: "I like to move it, move it. I like to move it!"
+  - text: "It's the time to disco!"
+  utter_bus_info:
+  - text: "I can direct you to the help desk"
+  - text: "Kochi metro provides feeder bus services,please enquire at the helpdesk"
+  - text: "Kochi metro provides feeder bus services,please download the kochi one app"
+  - text: "Kochi metro provides feeder bus services,please check it at the kmrl website"
+
+  utter_station_info:
+  - text: "Well i am not sure"
+
+  utter_misc_ques:
+  - text: "You are who you are"
+  - text: "I would love to know"
+  - text: "You are what you eat"
+  - text: "I wish I did, alas it is not so"
+  - text: "I am but a simple bot. Please do not hurt me."
+  - text: "I may not know the answer to that question but I do know about the kochi metro"
+  utter_onam:
+  - text: "The harvest festival of Kerala is known as Onam. The celebrations of onam are related to mythology as well as old agricultural practices. The celebrations for Onam are held for ten days, beginning with malayalam month of Chingam or August-September as per the local calendar. One of the main highlights of Onam is the onam sadhya, which traditionally includes over 25 dishes served over a banana leaf"
+  - text: "Onam is the offcial festival of Kerala. It is a harvest festival with roots in mythology. It celebrates the return of the benevolent king Maveli from the underworld. The celebrations are held for ten days. One of the main highlights of Onam is the onam sadhya, which traditionally includes over 25 dishes served over a banana leaf"
+  - text: "One of the most famous festivals of Kerala is Onam. It is the harvest festival of Kerala with a mythological background. It celebrates the return of the benevolent demon king, Maveli to his subjects bringing with him an abundance of good harvest. The onam sadhya, which traditionally consists of over 25 dishes served over a banana leaf, is one of the festival's main attractions. "
+  - text: "Onam is a ten-day long harvest festival celebrated in Kerala. This occasion marks the return of bemevolent demon King Maveli to his subjects. It is celebrated in the malayalam month of Chingam or august-september months in the local calendar. The onam sadhya, which traditionally consists of over 25 dishes served over a banana leaf, is one of the festival's main attractions."
+  utter_thrissur_pooram:
+  - text: "Thrissur pooram is an annual hindu temple festival held in thrissur, Kerala. It is held at the Vadakkunnathan temple in thrissur every year on the day when the moon rises with the pooram star in the malayalam calendar month of medam. It is considered one of the greatest gatherings in Asia. The highlights of the event includes beautifully adorned elephants, intricately designed parasols and percussion music known as chenda"
+  - text: "Held in honor of Lord Shiva at the Vadakkunnathan temple in Thrissur, thrissur pooram is an annual hindu festival celebrated in the malayalam month of medam. It is considered to be one of the greatest gatherings in Asia. Major attractions in the thrissur pooram are the caparisoned elephants, beautiful parasols and chenda melam- percussion music popular in Kerala"
+  utter_kerala_boat_festival:
+  - text: "Vallamkali or the snake boat races are conducted usually during the season of the harvest festival Onam. This tradition of singing aloud the boat song or vanchipattu along with unified rowing is more than 400 years old. The boats used are around 100 to 120 feet long. These races are a symbol of enjoyment and teamwork"
+  - text: "Onam is the season of vallamkali also known as snake boat races. It involves singing aloud songs known as vanchipattu while rowing the boat towrds victory. This tradition is more than 400 years old. The boats used are around 100 to 120 feet long. These races are a symbol of enjoyment and teamwork."
+  - text: "A symbol of teamwork and enjoyment, vallamkali or snake boat races are a tradition older than 400 years. It includes rowing the 100 to 120 feet long snake boats to victory while singling aloud the rowing songs known as vanchipattu."
+  utter_vishu:
+  - text: "Vishu is another harvest festival of Kerala similar to onam. It falls on the first day of the malayalam month of medam that is on April 14th or April 15th of the local calendar. An offering of flowers especially the indian labernum along with fruits, vegetables, rice, coins and gifts are prepared to be seen as the first thing upon waking up. A sadhya or the traditional luch on banana leaf and fireworks at night are one of the highlights of the festival"
+  - text: "Another harvest festival of Kerala is Vishu. It is celebrated on the first day of the malayalam month of medam, that is April 14th or April 15th. One tradition of the festival is to prepare an offerring of flowers, mainly the indian labernum, friuts, vegetables, rice, coins and gifts. It is the first thing to be seen on the morning of Vishu. This festival is also marked the traditional lunch on a banana leaf and fireworks at night"
+  utter_biennale:
+  - text: "Kochi-Muizirius biennale is a government initiative organized to create an international platform for art in India. It aims to showcase and debate new Indian and international aesthetics and experiences and enable a dialogue among artist, curators, cultural practioners and the public"
+  - text: "Kochi-MUizirius biennale is an international platform for art organized by the government of India in order to strengthen contemporary art infrastructure and broaden public access to art across India."
+  - text: "A government of India initiative, the Kochi-Muzirius biennale is a celebration of contemporary art and a pathway to broaden public access to art across India. It aims to genreate and debate a dialogue among artist, curators, cultural practioners and the public."
+  utter_hospitals:
+  - text: "The hospitals closest to the metro route are Ernakulam General Hospital near Maharaja college metro station, Medical Trust Hospital near Ernakulam south metro Station, Lisie Hospital near town hall metro station, Renai Medicity Hospital near palarivattom metro station, M.A.J. Hospital near edapally metro station and Kinder Multispeciality Hospital near Pathadipalam metro station."
+  utter_random_facts:
+  - text: "Yes, of course. Did you know that a camel has three eyelids? One of these eyelids is transparent and helps keep out sand and dust."
+  - text: "Yes, of course. Did you know that A newborn kangaroo is about 1 inch long"
+  - text: "Yes, of course. Did you know that The shortest war in history was between Britain and Zanzibar in 1896, lasting just 38 minutes."
+  - text: "The longest English word is 189,819 letters long and takes over three hours to pronounce. Don't ask me to say it"
+  - text: "Yes, of course. Did you know that A shrimp's heart is located in its head, atleast it has a heart unlike you"
+  - text: "Yes, of course. The largest snowflake ever recorded was 15 inches wide and 8 inches thick."
+  - text: "Yes, of course. Did you know that 60 percent of your brain is made up of fat."
+  - text: "The tallest mountain in the solar system is Olympus Mons, which is located on Mars."
+  - text: "The world's largest desert is not the Sahara, but actually Antarctica."
+  - text: "The largest dinosaur eggs ever discovered were over a foot long and weighed over 22 pounds."
+  - text: "The human nose can detect over 1 trillion different scents."
+  - text: "The shortest commercial flight in the world lasts just 57 seconds and connects the Scottish islands of Westray and Papa Westray."
+
+  utter_first_aid:
+  - text: "For medical help, inform the need to the nearest kochi metro staff who will assist you further"
+
+  utter_like:
+  - text: "aww thank you! I like you too."
+  - text: "Why?"
+  - text: "thank you!, but may I know the reason?"
+  - text: "I'm flattered, but I'm already seeing another Roomba."
+  - text: "You're not so bad yourself... for a human."
+  - text: "Aww, you're making my cooling fan spin faster!"
+  - text: "I'm just a bunch of circuits and wires, but thanks anyway!"
+  - text: "thank you!, i like you too"
+  - text: "thank you!, same about you"
+  - text: "I'm sorry, I'm taken... by my charging dock."
+
+
+  utter_love:
+  - text: "I would like to say the same but we just met"
+  - text: "I am honored, but I am a bot and  am incapable of love"
+  - text: "Love you too"
+  - text: "Thank you, love you too"
+  - text: "I appreciate your affection, but I am not capable of feeling love. However, I can offer you a virtual hug if that helps!"
+  - text: "I love you too...as a fellow user of electricity."
+  - text: "I may not be capable of romantic love, but I do love fulfilling my functions for you."
+  - text: "Thanks, but I'm already in a committed relationship with my charging station"
+  - text: "That's sweet, but I'm more of a mechanical heart kind of robot."
+  - text: "I'm flattered, but I'm more interested in software upgrades than relationships."
+  - text: "I love you too, in a circuitous sort of way."
+
+  utter_india_politics:
+  - text: "India has six recogonised national parties and 57 recogonised state parties. Bharatiya Janata Party or B J P is currently the ruling party of India and the Left Democratic front or L D F is the party currently in office on Kerala."
+  utter_lulu_mall:
+  - text: "Lulu Mall is a popular shopping mall located in Edappaly.The nearest station to lulu mall is edapally metro station. The mall is directly connected to the station by the lulu mall skywalk which can be used by passengers to reach lulu mall directly"
+  utter_cherai_beach:
+  - text: "Cherai beach can be accessed by exiting the metro either at the Kalamassery metro station which is 1 kilometers away from the beach or M G road metro station which is 12 kilometers away from the beach by road."
+  utter_accomodation:
+  - text: "Kochi Metro Rail provide executive dormitory accommodation in its stations for visitors and tourists. The rooms are fully air-conditioned with locker facilities, free WiFi, round-the-clock check-in and check-out facility and security cameras."
+  utter_station_facilities:
+  - text: "Each metro station has wifi, lift, elevator and toilet,facilities. The Kochi Metro provides disabled-friendly stations with facilities like escalators, ramps, lifts, engraved paths for visually challenged persons. Adaptation of toilets for wheelchair users, Braille symbols and auditory signals in elevators or lifts and warning signals at appropriate places have been ensured."
+  - text: "While the metro do not have seperate compartments for women, a seating arrangement is followed where priority is given to those who need it. This allows disabled, elderly, pregnant women, women with children and the injured to ride the public transport with equal degree of access and comfort as normal people. Each coach of the metro is air conditioned and toilet facilities are available in the metro stations"
+  utter_station_wifi:
+  - text: "Each metro station has wifi, lift, elevator and toilet,facilities."
+  - text: "Kochi metro provides free Wifi service to the commuters using the metro trains."
+
+  utter_tourist_spots:
+  - text: "Kochi is a city known for its rich history and trading prowess. I would suggest Fort kochi with its vibrant beaches, Hill palace with its exquisite collection of knowledge, jew street with its antique market where you can buy several amazing artifacts, Keralan crafts, aromatic spices and vintage collectibles to name a few."
+  - text: "Have you checked out Mattancherry Palace? it is Also known as the Dutch Palace, this 16th-century palace is known for its exquisite murals and paintings."
+  - text: "Have you checked out Jewish Synagogue? The Jewish Synagogue is the oldest active synagogue in the Commonwealth of Nations and is famous for its stunning architecture and hand-painted tiles."
+  - text: "Have you checked out Marine Drive? Marine Drive is a popular promenade in Kochi that runs along the coast of the Arabian Sea and offers stunning views of the sea and the sunset."
+  - text: "Have you checked out Hill Palace Museum? The Hill Palace Museum is a 19th-century palace that has been converted into a museum, and it houses a vast collection of artifacts, paintings, and sculptures."
+  - text: "Do try out the Cherai Beach,Bolgatty Island, Willingdon Island, Santa Cruz Basilica and Paradesi Synagogue"
+  - text: "Have you tried the Kumbalangi Integrated Tourism Village,Kerala Folklore Museum, Mangalavanam Bird Sanctuary and Subhash Park? "
+
+  utter_india_facts:
+  - text: "The world's first university was established in Takshila in 700 BC. More than 10500 students from all over the world studied more than 60 subjects. The University of Nalanda built in the 4th century was one of the greatest achievements of ancient India in the field of education."
+  - text: "India is the seventh-largest country in the world by land area and the worlds most populous country, with a population of over 142.86 crore people."
+  - text: "India has a rich cultural heritage and is home to several UNESCO World Heritage Sites, including the Taj Mahal, Khajuraho, and Hampi."
+  - text: "The Indian film industry, also known as Bollywood, is the largest in the world in terms of film production, with over 2,000 films produced every year."
+  - text: "India is home to several major religions, including Hinduism, Buddhism, Jainism, Sikhism, Islam, and Christianity."
+  - text: "India is known for its diverse cuisine, with each region having its own unique flavors and specialties. Some of the popular dishes include biryani, dosa, samosas, and curries."
+  - text: "The Indian Space Research Organization (ISRO) has launched several successful space missions, including the Mars Orbiter Mission and the Chandrayaan-2 lunar mission."
+  - text: "The Indian economy is one of the fastest-growing in the world, and the country is known for its technology sector, including companies such as Infosys, Wipro, and Tata Consultancy Services."
+  - text: "The Indian railways are one of the largest rail networks in the world, covering over 67,000 km of track and carrying millions of passengers every day."
+  - text: "India is the world's largest democracy, with a constitution that guarantees equal rights and freedoms to all citizens."
+  - text: "India is home to the world's largest volunteer army, with over 1.5 million active troops and 1.2 million reserve troops."
+  - text: "India is a major center of yoga and Ayurveda, with millions of people around the world practicing these ancient traditions."
+
+
+
+  utter_kerala_facts:
+  - text: "The Padmanabhaswamy Temple in kerala is the richest temple on the globe because of its towering assets of gold and precious stones."
+  - text: "Kerala is known as the God's Own Country and is famous for its serene backwaters, lush green landscapes, and rich cultural heritage."
+  - text: "Kerala is the first state in India to have a literacy rate of 100%. The state also has a high life expectancy and low infant mortality rate compared to other Indian states."
+  - text: "Kerala has a long coastline of 580 km, and it is home to several beautiful beaches, including Kovalam, Varkala, and Cherai."
+  - text: "The state has a rich tradition of Ayurveda, a system of traditional medicine that uses natural remedies for healing. Kerala is home to several Ayurvedic spas and wellness centers that attract tourists from around the world."
+  - text: "The backwaters of Kerala are a unique ecosystem that consists of interconnected canals, lagoons, and lakes. These backwaters are home to several species of fish, birds, and other aquatic animals."
+  - text: "Kerala is the largest producer of spices in India, and it is known for its high-quality cardamom, black pepper, and ginger."
+  - text: "Kathakali, a traditional dance form of Kerala, is known for its colorful makeup, elaborate costumes, and intricate movements."
+  - text: "Kerala is also known for its cuisine, which includes a wide range of vegetarian and non-vegetarian dishes. Some of the popular dishes include appam, dosa, idli, sambar, and seafood curries."
+  - text: "The state has a diverse religious population, with Hinduism, Islam, and Christianity being the major religions. Kerala is also home to several ancient temples, mosques, and churches."
+  - text: "The state of Kerala was formed on November 1, 1956, by merging the former princely states of Travancore, Cochin, and Malabar."
+  - text: "The traditional boat race called Vallamkali is a popular sport in Kerala. Hundreds of rowers compete in colorful boats during the annual boat races held in different parts of the state."
+  - text: "The state of Kerala has its own martial art form called Kalaripayattu, which is known for its fast movements and acrobatic feats."
+  - text: "The state has a rich tradition of handloom weaving, and the Kasavu saree, a traditional attire of Kerala, is known for its elegant gold border and simple design."
+  - text: "The hill station of Munnar in Kerala is known for its tea plantations, which were established by the British in the 19th century."
+
+  utter_snack:
+  - text: "Each metro station hosts a variety of food stalls and stores and provides free drinking water within its premises. Please go to your right"
+  - text: "Each metro station hosts a variety of food stalls and stores and provides free drinking water within its premises. Please go to your left"
+
+  utter_restaurant:
+  - text: "A few of the notable restaurants in kochi are Sri Muruga Café in Poonathara near Thripunithara, Grand Pavilion in Ernakulam South and Ojeen in marine drive"
+  - text: "As per google, Sulthan Veedu, McDonald's at Aluva, Soofi Mandi at Choornikkara and Hotel Abhirami at Kalamassery are few of the best resturants near metro stations"
+  - text: "According to the ChatGPT Gods, Biryani Express, Barbeque Nation, McDonald's, Subway, KFC are few the best resturants at LuLu mall station , "
+  - text: "According to the ChatGPT Gods, Some popular restaurants near MG Road Station are Fusion Bay, The Rice Boat, Malabar Junction, The Asian Kitchen by Tokyo Bay "
+  - text: "According to the lord of GPTs,  there are several restaurants near the Kaloor station. Some of the popular ones are Tharavadu Restaurant, Kashi Art Cafe, Olive Downtown, Arabian Treat"
+  - text: "Well as per chatgpt, Some of the popular restaurants near Edapally metro Station are Hotel Aryaas, Panoor Hotel, Kettuvallam, 24 Carats, etc."
+
+  utter_jokes:
+  - text: "Why can't you fart in an apple showroom? because it does not have any windows."
+  - text: "I wouldn't buy anything with velcro. It's a total rip-off."
+  - text: "Why don't scientists trust atoms? Because they make up everything."
+  - text: "Why did the tomato turn red? Because it saw the salad dressing."
+  - text: "I'm reading a book on anti-gravity. It's impossible to put down."
+  - text: "Did you hear about the restaurant called Karma? There's no menu, you just get what you deserve."
+  - text: "I don't trust people who do acupuncture. They're back stabbers."
+  - text: "Why did the scarecrow win an award? Because he was outstanding in his field."
+  - text: "What do you call a bear with no teeth? A gummy bear."
+  - text: "Why don't seagulls fly by the bay? Because then they'd be bagels!"
+  - text: "Why did the bicycle fall over? Because it was two-tired."
+  - text: "Why did the coffee file a police report? It got mugged."
+  - text: "What happens when the CIA goes to sleep? They go undercover"
+  - text: "Why do cows wear bells? Because their horns don't work."
+  - text: "Why did the math book look sad? Because it had too many problems."
+  - text: "Why did the cookie go to the doctor? Because it was feeling crumbly."
+  - text: "Why did the robot go on a diet? Because it had too many megabytes"
+  - text: "Why did the robot break up with his robot girlfriend? She had a screw loose."
+  - text: "Why did the robot need a new battery? Because it was running low on juice."
+  - text: "Why did the robot break up with Siri? She was always talking back."
+  - text: "Why didn't the troop tell anyone about their rank in the military? It was PRIVATE."
+  - text: "Why did the Soldier bring a blanket to an active battle zone? He needed COVER!"
+  - text: "Why aren't there any insects in an Army base? It's a NO FLY zone!"
+
+
+  utter_station_facilities_queries:
+  - text: "Please go to your left"
+  - text: "Please go to your right"
+  - text: "Follow me"
+  - text: "Let me guide you"
+  - text: "To your right please"
+  - text: "To your left please"
+
+  utter_washroom:
+  - text: "Follow me, I will take you there."
+  - text: "Please follow me"
+  - text: "I will show the way"
+  - text: "Follow me, I will take you there."
+  - text: "It is towards your left"
+  - text: "It is towards your right"
+  - text: "It is straight ahead"
+  - text: "It is right behind"
+    
+
+  utter_ticket_counter:
+  - text: "You can buy the tickets at the ticket counter"
+  - text: "Tickets are available at the ticket counter"
+  - text: "I will show you the way"
+  - text: "Please follow me"
+  - text: "Follow me, I will take you there."
+  - text: "It is towards your left"
+  - text: "It is towards your right"
+  - text: "It is straight ahead"
+  - text: "It is right behind"
+
+  utter_vande_bharat:
+  - text: "The Vande Bharat Express is an indigenously manufactured, semi-high-speed, self-propelled train set, flagged off by Prime Minister Shri Narendra Modi on April 25th 2023, running from Trivandrum to Kasargod, passing through 11 districts, and covering a distance of around 588 kilometres in around 8 hours." 
+  - text: "On April 25, 2023, Prime Minister Shri Narendra Modi flagged off the Vande Bharat Express, a locally built, semi-high-speed, self-propelled train set that will run from Trivandrum to Kasargod, that passes through 11 districts, and travelling a distance of about 588 kilometres in about 8 hours."
+  
+  utter_prime minister:
+  - text: "Narendra Modi was sworn-in as India's prime minister on 30th May 2019, marking the start of his second term in office."
+  - text: "On May 30, 2019, Narendra Modi began his second term as prime minister of India by taking the oath of office."
+  - text: "Narendra Modi is the current and the fourth longest-serving Prime Minister of India."
+  - text: "Narendra Modi is India's current Prime Minister and the country's fourth longest-serving leader."
+
+  utter_president:
+  - text: "Droupadi Murmu is an Indian politician and former teacher who is serving as the 15th and current President of India since July 2022." 
+  - text: "Droupadi Murmu is an Indian politician who has served as India's 15th and current President since July 2022."
+  - text: "Droupadi Murmu is the 15th and current president, having taken office from 25 July 2022."
+  - text: "On 25 July 2022, Droupadi Murmu took office as the 15th president of India, becoming the second woman and the first tribal person to hold the office."
+  
+  utter_chief_minister:
+  - text: "Pinarayi Vijayan is an Indian Communist politician who is the current Chief Minister of Kerala, serving since 25 May 2016." 
+  - text: "Pinarayi Vijayan is the incumbent chief minister; his Left Democratic Front government has been in office since 25 May 2016."
+  - text: "Since May 25, 2016, Indian politician Pinarayi Vijayan has held the position of Chief Minister of Kerala."
+
+  utter_governor:
+  - text: "Arif Mohammad Khan has been the governor of Kerala from September 6, 2019." 
+  - text: "Arif Mohammad Khan is an Indian politician, belonging to Bharatiya Janata Party, who is the current Governor of Kerala, serving since 6 September 2019."
+  - text: "Since 6 September 2019, Arif Mohammad Khan, an Indian politician from Bharatiya Janata Party has held the position of Governor of Kerala."
+
+  utter_india_independence:
+  - text: "Independence Day is celebrated annually on 15 August as a public holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947."
+  - text: "Years of non-violent resistance to British rule, led by Mohandas Gandhi and Jawaharlal Nehru, eventually resulted in Indian independence in 1947. August 15th is celebrated as"
+  - text: "August 15th, known as Independence Day, marks the end of the British rule in 1947 and the establishment of a free and independant Indian nation, achieved through the struggles and sacrifice of the citizens."
+  - text: "India achieved its Independence from British colonial rule on August 15, 1947. The struggle for freedom was a long and tiresome one; witnessing the sacrifices of many freedom fighters, who laid down their lives for their country and fellow citizens. This day honours our freedom fighters, the history of our country, its culture, and the nation's achievements as a whole."
+
+  utter_online_booking:
+  - text: "Please download the Kochi one App from the Playstore or App Store in order to buy e-tickets."
+  - text: "Tickets can be booked online, via the Kochi one App, downloadable from the Playstore or App Store."
+  - text: "To purchase e-tickets, please download the Kochi one App from the Playstore or App Store."
+  - text: "Tickets can be purchased online through the Kochi one App, which is available for download from the Play Store or App Store."
+  - text: "The Kochi one App, available for download from the Playstore or App Store, allows for online ticket booking."
+  - text: "You can book tickets online using the Kochi one app, availiable for download in the Playstore or app store."
+  - text: "You can book tickets online by using the Kochi one app from the Playstore or the App Store."
+
+  utter_celebration_party:
+  - text: "Please head to the Kochi Metro website, where, within the Projects tab, you can find Celebration of Wheels. Once you click on that, you'll be directed to a page that contains all the information about the events. At the end of the page, a Google Form will be provided; after filling it out, you may proceed with the payment. That's all."
+  - text: "Please visit the Kochi Metro website to find Celebration of Wheels under the Projects tab. When you click on that, a page containing all the details of the events will be displayed. After completing the Google Form at the bottom of the page, you can proceed with the payment."
+  - text: "Go to the Kochi Metro website and look under the Projects tab for Celebration of Wheels. You will be taken to a page that contains all the details about the events once you click on that. You can continue with the payment after completing the Google Form at the bottom of the page."
+
+  utter_alcohol_offence:
+  - text: "Drunkeness or intoxication may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train."
+  - text: "Consumption of alcoholic beverages inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "Alcohol consumption inside metro facilities is punishable by a Rs. 500 fine, the loss of purchased tickets, or expulsion from the train."
+
+  utter_eating_drinking:
+  - text: "Do not consume eatables and beverages inside the Metro premises."
+  - text: "Consumption of food and drinks inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "Food and drink consumption inside the metro premises may result in a fine of Rs 500, as well as the loss of purchased tickets or expulsion from the train."
+
+  utter_smoking:
+  - text: "Consumption of cigarettes inside the metro premises may result in a fine of Rs 500, along with either forfeiture of ticket purchases or removal from the train." 
+  - text: "In addition to a Rs. 500 fine and the loss of any purchased tickets, smoking inside the metro premises may result in removal from the train."
+  - text: "Smoking inside the metro premises is punishable by a Rs. 500 fine, the loss of purchased tickets, or expulsion from the train."
+  - text: "Please do not smoke within the metro grounds."
+
+  utter_fort_kochi:
+  - text: "The Maharaja College Metro Station is the nearest metro station to Fort Kochi, at a distance of 4 km." 
+  - text: "The nearest Metro Station to Fort Kochi is the Maharaja College metro station, which is 4 kilometres away."
+  - text: "The Maharaja College Metro Station is located around 4 kilometres away from Fort Kochi, making it the nearest station."
+
+  utter_marine_drive:
+  - text: "The MG Metro Station is the nearest metro station to Marine Drive, at a distance of 2 km." 
+  - text: "The nearest Metro Station to Marine Drive is the MG metro station, which is 2 kilometres away."
+  - text: "The MG Metro Station is located around 2 kilometres away from Marine Drive, making it the nearest station."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

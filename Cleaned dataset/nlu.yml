@@ -1,0 +1,1493 @@
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - Awesome!
+    - Good
+    - Great
+    - I accept
+    - I accept.
+    - I agree
+    - I am using it
+    - I changed my mind. I want to accept it
+    - I do
+    - I get it
+    - I guess so
+    - I have used it in the past
+    - I will
+    - I'd absolutely love that
+    - I'm sure I will!
+    - I'm using it
+    - Nice
+    - OK
+    - Ofcourse
+    - Oh yes
+    - Oh, ok
+    - Ok let's start
+    - Okay
+    - PLEASE
+    - Sure
+    - Sweet
+    - That would be great
+    - YES
+    - YUP
+    - Yea
+    - Yeah
+    - Yeah sure
+    - Yep
+    - Yep that's fine
+    - Yes I do
+    - Yes please
+    - Yes please!
+    - Yes, I accept
+    - Right
+    - Yup
+    - a little
+    - absolutely
+    - accept
+    - accepted
+    - agreed
+    - ah ok
+    - alright
+    - alright, cool
+    - amazing!
+    - awesome
+    - confirm
+    - cool story bro
+    - definitely yes without a doubt
+    - done
+    - fair enough
+    - ofcourse
+    - fine
+    - go
+    - go ahead
+    - go for it
+    - going super well
+    - good
+    - great
+    - great lets do that
+    - great
+    - hell yeah
+    - hell yes
+    - hm, i'd like that
+    - how nice!
+    - i accept
+    - i am!
+    - i want that
+    - i will
+    - it is ok
+    - its okay
+    - lets do it
+    - lets do this
+    - not bad
+    - of course
+    - ofcoure i do
+    - ofcourse
+    - oh awesome!
+    - oh cool
+    - oh good !!
+    - oh super
+    - ok cool
+    - ok fine
+    - ok friend
+    - ok good
+    - ok great
+    - ok i accept
+    - ok Meeka
+    - ok, Meeka
+    - aah yes
+    - okay
+    - okay cool
+    - okay sure
+    - oki doki
+    - perfect
+    - please
+    - sort of
+    - sure
+    - sure thing
+    - that is cool
+    - that ok
+    - that sounds fine
+    - that's great
+    - thats fine
+    - thats good
+    - thats great
+    - top
+    - uh-huh
+    - very much
+    - well yes
+    - ya
+    - ya cool
+    - ya go for it
+    - ya i want
+    - ya please
+    - ya thats cool
+    - yaah
+    - yap
+    - yay
+    - yea
+    - yeah
+    - yeah do that
+    - yeah sure
+    - yeah
+    - yeah, why not
+    - yep
+    - yep i want that
+    - yep if i have to
+    - yep please
+    - yep that's nice
+    - yep thats cool
+    - yep, will do thank you
+    - yes I do
+    - yes baby
+    - yes cool
+    - yes give me information
+    - yes go ahead
+    - yes go for it
+    - yes great
+    - yes i accept
+    - yes i agree
+    - yes i have
+    - yes it is
+    - yes it was okay
+    - yes of course
+    - yes pleae
+    - yes please
+    - yes please!
+    - yes that's great
+    - yes that's what i want
+    - yes you can
+    - yes, I'd love to
+    - yes, cool
+    - yes, give me information, please
+    - yes,i am
+    - yo
+    - you got me, I accept, if you want me to
+    - yup
+    - Okay cool
+    - considering
+    - sounds good!
+    - really
+- intent: react_positive
+  examples: |
+    - cool beans
+    - sweet
+    - Cool
+    - cool
+    - I am happy
+    - Lol thats funny
+    - Looks nice
+    - WOW
+    - You are great
+    - You're cute
+    - You're nice
+    - You're really cool
+    - ha ha
+    - happy
+    - i am feeling happy
+    - i am happy
+    - i am happy today
+    - i am very happy with your response
+    - i love you
+    - it's pretty cool
+    - lol
+    - love you
+    - okay Meekabot, you're cool
+    - Meeka is awesome
+    - such a great demo
+    - that is funny
+    - that was a great interaction
+    - thats funny
+    - today was a nice day
+    - wow
+    - you are a badass bot
+    - you are awesome
+    - you are cool
+    - you are cool man
+    - you are doing great
+    - you are funny
+    - you are great
+    - you are my new bestfriend
+    - you seem pretty cool
+    - you are realy intelligent
+    - I like Meeka
+    - you are so smart
+    - That's awesome.
+    - Got it
+    - you good
+    - Great information
+- intent: bye
+  examples: |
+    - Bye
+    - Bye bye
+    - bye for now
+    - bye was nice talking to you
+    - catch you later
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye Meeka bot!
+    - good night
+    - goodbye
+    - gotta go
+    - ok Bye
+    - see u later
+    - see ya
+    - see you
+    - take care
+    - then bye
+    - talk to you later
+- intent: canthelp
+  examples: |
+    - I think you cant help me
+    - and that's it?
+    - do you get anything?
+    - hm i don't think you can do what i want
+    - i guess you can't help me then
+    - nothing else?
+    - ok i guess you can't help me
+    - ok then you cant help me
+    - ok, but that doesnt help me
+    - stop
+    - stop go back
+    - stop this conversation
+    - that was shit, you're not helping
+    - that's not what i want
+    - this conversation is not really helpful
+    - this is leading to nothing
+    - you can't help me
+    - you can't help me with what i need
+    - you cannot help me with what I want
+    - you cant help me
+    - quit
+    - that does not help
+- intent: deny
+  examples: |
+    - I don't want to
+    - I don't want to give it to you
+    - I don't want to say
+    - I dont want to tell
+    - NO
+    - NO DON"T WANT THIS!
+    - Never
+    - Nevermind
+    - No
+    - No thank you
+    - No, not really.
+    - No, thank you
+    - Nopes
+    - Not really
+    - absolutely not
+    - decline
+    - definitely not
+    - deny
+    - i decline
+    - i don not like this
+    - i don't think so
+    - i don't want either of those
+    - i don't want to
+    - i dont want to
+    - i guess it means - no
+    - i'm afraid not
+    - i'm not sure
+    - it is going pretty badly
+    - it sucks
+    - it sux
+    - nah I'm good
+    - nah not for me
+    - nah, first time
+    - nah, i'm good
+    - nehi
+    - nein
+    - neither
+    - never
+    - never mind
+    - no
+    - no
+    - no I dont want
+    - no and no again
+    - no bots at all
+    - no go
+    - no i can't
+    - no i don't accept
+    - no i dont want to
+    - no i won't
+    - no ma'am
+    - no sir
+    - no sorry
+    - no thank you
+    - no thanks
+    - no way
+    - no you did it wrong
+    - no, i hate it
+    - no, my frst time
+    - no, thank you
+    - no, thanks
+    - no, thankyou
+    - no. you are an idiot
+    - no
+    - nope
+    - nope. i am good
+    - not going well at all
+    - not really
+    - not right now
+    - not yet
+    - sorry not right now
+    - still dont want to tell
+    - thanks but no thanks
+    - very bad
+    - I do not need help installing
+    - no stop
+    - stop it, i do not care!!!
+    - none of them
+    - I don't agree
+- intent: explain
+  examples: |
+    - can you elaborate
+    - could you explain why you need that
+    - could you tell me more
+    - explain it to me
+    - explain that
+    - i want more information
+    - i would like to know why you need that
+    - please elaborate
+    - please explain
+    - why do you need to know that
+    - why is that necessary
+    - give me more details
+    - why
+    - what do you mean
+    - what does that mean
+    - how come?
+- intent: greet
+  examples: |
+    - Bonjour
+    - Good Morning
+    - HI Meeka
+    - Hallo
+    - Hello
+    - Hello Bot
+    - Hello Meeka
+    - Hey
+    - Hey Meeka
+    - Hey bot
+    - Hi
+    - Hi Meeka
+    - Hi bot
+    - Hi man
+    - Hi there
+    - Hola
+    - I said, hello
+    - Well hello there
+    - What is up?
+    - Whats up
+    - good evening
+    - good moring
+    - good morning
+    - greet
+    - greetings
+    - hello everybody
+    - hello friend
+    - hello it is me again
+    - hello robot
+    - hello Meeka
+    - hello sweatheart
+    - hello there
+    - hello, my name is [Charles Pfeffer](name)
+    - hey dude
+    - hey hey
+    - hey let's talk
+    - hey Meeka
+    - hey, let's talk
+    - hi Mister
+    - hi again
+    - hi can you speak ?
+    - hi friend
+    - hi im [Amanda Anderson](name)
+    - hola
+    - i am [Karen Mease](name)
+    - Meeka hello
+    - what up
+    - whats popping
+    - whats up
+    - yo
+    - yoo
+- intent: react_negative
+  examples: |
+    - I am feeling bad
+    - I am sad
+    - I am super sad
+    - I'm sad
+    - I'm super sad
+    - Now I'm sad
+    - This is bad
+    - You are quite bad
+    - bad
+    - crappy joke
+    - i am angry
+    - i am sad
+    - i am very sad
+    - i feel sad
+    - i sad
+    - i'm sad
+    - Meeka is bad
+    - sad
+    - you broke my heart
+    - very very sad
+    - you are bad
+    - you are bad bot
+    - you make me sad
+    - You are mad
+    - You are rude
+    - bots are bad
+    - i dont like bots
+    - this is a really frustrating experience
+    - you're rather dull
+    - i will leave
+    - Although I understand your still in development, I feel a little bit disappointed.
+    - Surely you're not so smart like i thought
+    - not good
+    - Thats so rude
+    - sadly
+    - boring
+- intent: thank
+  examples: |
+    - Cool Thanks
+    - Great thanks
+    - Thank you
+    - Thank you Meeka
+    - Thank you so much
+    - Thanks
+    - Thanks bot
+    - Thanks for that
+    - Thanks!
+    - amazing, thanks
+    - cheers
+    - cheers bro
+    - cool thank you
+    - cool thanks
+    - great thanks
+    - ok thanks
+    - ok thanks Meeka
+    - perfect thank you
+    - thank u
+    - thank you
+    - thank you anyways
+    - thanks
+    - thanks a bunch for everything
+    - thanks a lot
+    - thanks for forum link, I'll check it out
+    - thanks for the help
+    - thanks this is great news
+    - thankyou
+    - thnks
+    - yes thanks
+    - thanks for your information
+    - thanks
+- intent: inquire_time
+  examples: |
+    - Can you give me the time?
+    - Can you tell me the time?
+    - Can you tell me what time it is?
+    - Can you tell the time?
+    - Could you tell me the time, please?
+    - Could you tell me the time?
+    - Could you tell me what time is it?
+    - Do you have the time?
+    - Do you know what time it is?
+    - Excuse me, what time is it?
+    - Give me the time.
+    - Hi, I need the time.
+    - I need to know what time it is.
+    - Pardon me, but do you know the time?
+    - Tell me the time.
+    - Time, please!
+    - Time?
+    - What is the current time?
+    - What is the exact time?
+    - What is the hour and minute right now?
+    - What is the time?
+    - What might the time be?
+    - What time do we have?
+    - What time have we got?
+    - What time is it right now?
+    - What's the current time?
+    - What's the time right now?
+    - What's the time?
+    - Would you tell me what time it is?
+    - do you have the time?
+    - do you know the current time?
+    - tell me the current time.
+    - tell me the time it is.
+    - tell me the time.
+    - tell me what time you have.
+    - that's true. do you know what time it is?
+    - what is the current time?
+    - what is the time ?
+    - what is the time?
+    - what time do you have?
+    - what time is it
+    - what time it is
+    - what's the time
+    - whats the time now
+- intent: travel_request
+  examples: |
+    - i want to go to [aluva](destination)
+    - i want to go to [Pulinchodu](destination)
+    - i want to go to [Companypady](destination)
+    - i want to go to [Ambattukavu](destination)
+    - i want to go to [Muttom](destination)
+    - i want to go to [Kalamassery](destination)
+    - i want to go to [Cochin University](destination)
+    - i want to go to [Pathadipalam](destination)
+    - i want to go to [Edapally](destination)
+    - i want to go to [Changampuzha Park](destination)
+    - i want to go to [Palarivattom](destination)
+    - i want to go to [JLN Stadium](destination) 
+    - i want to go to [Kalamassery](destination)
+    - i want to go to [SN Junction](destination)
+    - i want to go to [Vadakkekotta](destination)
+    - i want to go to [Pettah](destination)
+    - i want to go to [Thaikoodam](destination)
+    - i want to go to [CUSAT](destination)
+    - i want to go to [Vallarpadam](destination) 
+    - go to [aluva](destination)
+    - go to [Pulinchodu](destination)
+    - go to [Companypady](destination)
+    - go to [Ambattukavu](destination)
+    - go to [Muttom](destination)
+    - go to [Kalamassery](destination)
+    - go to [Cochin University](destination)
+    - go to [Pathadipalam](destination)
+    - go to [Edapally](destination)
+    - go to [Changampuzha Park](destination)
+    - go to [Palarivattom](destination)
+    - go to [JLN Stadium](destination)      
+    - can you help me to get to [aluva](destination)
+    - i want to go to [destination](destination)
+    - Is there any train avialble to go to [aluva](destination)
+    - Is there any train avialble to go to [Pettah](destination)
+    - Is there any train avialble to go to [Lulu](destination)
+    - Is there any train avialble to go to [CUSAT](destination)
+   
+- intent: tell_about_kmrl
+  examples: |
+    - I would like to know more about Kochi metro
+    - can you tell me about KMRL
+    - What do you know about kmrl
+    - Can you give be brief idea about KMRL
+- intent: kmrl_md
+  examples: |
+    - who is the md of kochi metro
+    - who is the managing director of kochi metro
+    - who manages kochi metro
+    - md of kochi metro
+    - what is the name of md of kochi metro
+    - what is the name of ceo of kochi metro
+    - what is the name of managing director of kochi metro
+    - what is the name of chief executive officer of kochi metro
+    - managing director of kochi metro
+    - who is loknath behera
+    - is loknath behara md of kochi metro
+    - is loknath behara ceo of kochi metro
+    - is loknath behara managing director of kochi metro
+    - is loknath behara chief executive officer of kochi metro
+    - kochi metro md
+    - kochi metro managing director
+    - ceo of kochi metro
+    - who is the ceo of kochi metro
+    - who is the chief executive officer of kochi metro
+    - can you tell me who is the md of kochi metro
+    - please tell me who is the md of kochi metro
+    - tell me who is the md of kochi metro
+    - can you tell me who is the managing director of kochi metro
+    - please tell me who is the managing director of kochi metro
+    - tell me who is the managing director of kochi metro
+    - can you tell me who is the ceo of kochi metro
+    - please tell me who is the ceo of kochi metro
+    - tell me who is the ceo of kochi metro
+    - can you tell me who is the chief executive officer of kochi metro
+    - please tell me who is the chief executive officer of kochi metro
+    - tell me who is the chief executive officer of kochi metro 
+- intent: water_metro
+  examples: |
+    - what is water metro
+    - can you tell me about water metro
+    - tell me about water metro
+    - when did water metro start
+    - please tell me about water metro
+    - where is water metro
+    - water metro
+    - who owns water metro
+    - is water metro owned by kmrl
+    - can you tell me something about water metro
+
+- intent: mika_name
+  examples: |
+    - who are you
+    - what is your name
+    - your name
+    - tell me your name
+    - please tell me your name
+    - what do you call yourself
+    - name
+    - can you tell me your name
+    - do you know who you are
+    - do you know your name
+    - hey, can you tell me your name
+    - what are you
+    - Introduce yourself
+    - tell me about yourself
+    - Introduce you
+    - tell me about you
+- intent: mika_details
+  examples: |
+    - what can you do for
+    - what can you do
+    - can you guide me
+    - what is your purpose
+    - state your purpose
+    - what are you doing here
+    - why are you here
+    - what are you here for
+    - what is the point of you
+    - why were you made
+    - why were you created
+    - who developed you
+    - who created you
+    - who made you
+    - How can you help me
+    - why are you here
+    - why are you deployed
+    - how do you help 
+    - what do you do
+
+- intent: ticket_concession
+  examples: |
+    - what are the ticket discounts available in kochi metro
+    - are there any ticket discounts in kochi metro
+    - can you tell me about ticket discounts
+    - please tell me about ticket discounts
+    - tell me about ticket discounts
+    - will i get a ticket discount
+    - can I get a ticket discount
+    - will you please give me a ticket discount
+    - please give me a ticket discount
+    - any discounts
+    - what are the ticket concessions available in kochi metro
+    - are there any ticket concessions available in kochi metro
+    - can you tell me about ticket concessions
+    - please tell me about ticket concessions
+    - tell me about ticket concessions
+    - can I get a ticket concession
+    - will I get a ticket concession
+    - will you please give me a ticket concession
+    - please give me a ticket concession
+    - what are the fare discounts available in kochi metro
+    - are there any fare discounts in kochi metro
+    - can you tell me about fare discounts
+    - please tell me about fare discounts
+    - tell me about fare discounts
+    - can I get a fare discounts
+    - will I get a fare discounts
+    - will you please give me a fare discount
+    - please give me a fare discount
+    - what are the fare concessions available in kochi metro
+    - are there any fare concessioconcessionsns in kochi metro
+    - can you tell me about fare concessions
+    - please tell me about fare concessions
+    - tell me about fare concessions
+    - can I get a fare concessions
+    - will I get a fare concessions
+    - will you please give me a fare concessions
+    - please give me a fare concessions
+    - what are the price concessions available in kochi metro
+    - are there any price concessioconcessionsns in kochi metro
+    - can you tell me about price concessions
+    - please tell me about price concessions
+    - tell me about price concessions
+    - can I get a price concessions
+    - will I get a price concessions
+    - will you please give me a price concessions
+    - please give me a price concessions
+
+- intent: weather_info
+  examples: |
+    - how is the weather today
+    - what is the temperature today
+    - weather report
+    - can you tell me the weather report
+    - can you tell me about the weather
+- intent: kmrl_mascot
+  examples: |
+    - does kochi metro have a mascot
+    - who is the mascot of kochi metro
+    - what is the mascot of kochi metro
+    - who is milu
+    - what is milu
+    - who is the blue elephant that I see everywhere
+- intent: kmrl_water_metro_mascot
+  examples: |
+    - does water metro have a mascot
+    - who is the mascot of water metro
+    - what is the mascot of water metro
+    - who is jengu
+    - what is jengu
+    - who is the blue fish that I see here
+- intent: kids_songs
+  examples: |
+    - can you play me a song
+    - please play me a song
+    - sing for me
+    - will you sing a song for me
+    - please sing a song for me
+    - sing a song
+    - play a song
+    - sing
+- intent: kids_dance
+  examples: |
+    - can you dance
+    - please dance for me
+    - dance for me
+    - will you dance for me
+    - please dance for me
+    - please dance
+    - show me your moves
+    - show me a few steps
+    - dance
+- intent: bus_info
+  examples: |
+    - where can i find a bus
+    - where is the ksrtc station
+    - where is the ksrtc Bus station
+    - where is the ksrtc 
+    - how can i find a bus 
+    - can you give me a information about bus services
+    - is there a ksrtc station
+
+- intent: station_info
+  examples: |
+    - which station is this
+    - what station is this
+    - how many platforms are there in [aluva](station)
+    - how many platforms are there in [Pulinchodu](station)
+    - how many platforms are there in  [Companypady](station)
+    - how many platforms are there in  [Ambattukavu](station)
+    - how many platforms are there in  [Muttom](station)
+    - how many platforms are there in  [Kalamassery](station)
+    - how many platforms are there in  [Cochin University](station)
+    - how many platforms are there in  [Pathadipalam](station)
+    - how many platforms are there in  [Edapally](station)
+    - how many platforms are there in  [Changampuzha Park](station)
+    - how many platforms are there in  [Palarivattom](station)
+    - how many platforms are there in  [JLN Stadium](station) 
+    - how many platforms are there in  [Kalamassery](station)
+    - how many platforms are there in  [SN Junction](station)
+    - how many platforms are there in  [Vadakkekotta](station)
+    - how many platforms are there in  [Pettah](station)
+    - how many platforms are there in  [Thaikoodam](station)
+    - how many platforms are there in  [CUSAT](station)
+    - how many platforms are there in  [Vallarpadam](station)
+- intent: misc_ques
+  examples: |
+    - do you know I am
+    - do you know me
+    - what do you think you are doing
+    - Do you remember me
+
+- intent: onam
+  examples: |
+    - what is onam
+    - where is onam celebrated
+    - which is the state festival of kerala
+    - state festival of kerala
+    - harvest festival of kerala
+    - which is the harvest festival of kerala
+    - tell me something about onam
+    - tell me someting about harvest festival of kerala
+    - tell me something about the state fstival of kerala
+    - who comes for onam
+    - why is onam celebrated
+    - what makes onam special
+    - what do you do in onam
+    - what is the official festival of kerala
+    - official festival of kerala
+    - can you tell me something about onam
+    - can you tell me something about the state festival of kerala
+    - what is the main festival of kerala
+    - when is onam celebrated
+    - what is onam sadya
+- intent: thrissur_pooram
+  examples: |
+    - what is thrissur pooram
+    - where is thrissur pooram celebrated
+    - tell me something about thrissur pooram
+    - what makes thrissur pooram special
+    - what do you do in thrissur pooram
+    - can you tell me something about thrissur pooram
+- intent: kerala_boat_festival
+  examples: |
+    - what is kerala boat festival
+    - where is kerala boat festival celebrated
+    - tell me something about kerala boat festival
+    - why is kerala boat festival celebrated
+    - what makes kerala boat festival special
+    - what do you do in kerala boat festival
+    - can you tell me something about kerala boat festival
+    - what is vallam kali
+    - tell me about vallam kali
+- intent: vishu
+  examples: |
+    - what is vishu
+    - where is vishu celebrated
+    - tell me something about vishu
+    - why is vishu celebrated
+    - what makes vishu special
+    - what do you do in vishu
+    - can you tell me something about vishu
+    - what is spring festival of kerala
+    - where is spring festival of kerala
+    - tell me something about spring festival of kerala
+    - why is spring festival of kerala celebrated
+    - what makes spring festival of kerala special
+    - what do you do in spring festival of kerala
+    - can you tell me something about spring festival of kerala
+    - who celebrates vishu
+- intent: biennale
+  examples: |
+    - what is kochi biennale
+    - what is kochi-muziris biennale
+    - where is kochi biennale conducted
+    - when is kochi biennale conducted
+    - where is kochi-muziris biennale conducted
+    - when is kochi-muziris biennale conducted
+- intent: travel_passes
+  examples: |
+    - are there any passes for frequent travellers
+    - is there any concession for frequent travellers
+    - can you tell me about the travel passes available in kochi metro
+    - what is the price of single day pass
+    - what is price of weekend pass
+    - what is price of 3 day pass
+    - what is price of 7 day pass
+    - what is price of 15 day pass
+    - what is price of 30 day pass
+    - what is price of 45 day pass
+    - what is the unlimited travel pass
+    - is there a student travel pass
+
+- intent: washroom
+  examples: |
+    - Can you direct me to the nearest washroom?
+    - Can you direct me to the nearest restroom?
+    - Can you direct me to the nearest ladies room?
+    - Can you direct me to the nearest mens room?
+    - Can you direct me to the nearest gents room?
+    - Can you direct me to the nearest loo?
+    - Can you direct me to the nearest toilet?
+    - Can you direct me to the nearest bathroom?
+    - Where is the washroom?
+    - Where is the restroom?
+    - Where is the loo?
+    - where is the toilet
+    - Where is the ladies room?
+    - Where is the mens room?
+    - Where is the gents room?
+    - Where is the bathroom?
+    - Can you show me the way to the nearest washroom?
+    - Can you show me the way to the nearest loo?
+    - Can you show me the way to the nearest toilet?
+    - Can you show me the way to the nearest restroom?
+    - Can you show me the way to the nearest ladies room?
+    - Can you show me the way to the nearest mens room?
+    - Can you show me the way to the nearest gents room?
+    - Can you show me the way to the nearest bathroom?
+    - Is there any washroom nearby?
+    - Is there any restroom nearby?
+    - Is there any loo nearby?
+    - Is there any toilet nearby?
+    - Is there any ladies room nearby?
+    - Is there any mens room nearby?
+    - Is there any gents room nearby?
+    - Is there any gents bathroom nearby?
+    - I want to go to the washroom
+    - I want to go to the restroom
+    - I want to go to the loo
+    - i want to go to the toilet
+    - I want to go to the mens room
+    - I want to go to the gents room
+    - I want to go to the bathroom
+    - How can I go to the washroom?
+    - How can I go to the restroom?
+    - How can I go to the loo?
+    - How can I go to the toilet?
+    - How can I go to the mens room?
+    - How can I go to the ladies room?
+    - How can I go to the gents room?
+    - How can I go to the bathroom?
+    - Show me the way to washroom
+    - Show me the way to gents room
+    - Show me the way to loo
+    - Show me the way to ladies room
+    - Show me the way to toilet
+    - Show me the way to mens room
+    - Show me the way to rest room
+    - Show me the way to bathroom
+    - Please can you tell me where is the restroom?
+    - Please can you tell me where is the washroom? 
+    - Please can you tell me where is the mens room?
+    - Please can you tell me where is the gents room?
+    - Please can you tell me where is the ladies room?
+    - Please can you tell me where is the loo? 
+    - Please can you tell me where is the toilet? 
+    - Please can you tell me where is the bathroom? 
+    - Restroom
+    - Loo
+    - Toilet
+    - Ladies room
+    - Mens room
+    - Gents room  
+    - bathroom  
+
+  
+- intent: ticket_counter
+  examples: |
+    - Can you show me the way to ticket counter
+    - Where is the ticket counter
+    - Tell me where is the ticket counter
+    - Show me where is the ticket counter
+    - Ticket counter
+    - Can you direct me to the ticket counter
+    - How to go to the ticket counter
+    - How can I get to the ticket counter
+    - Where can I buy the tickets
+    - How to buy tickets
+    - can you give me a ticket
+    - How to get a ticket
+    - Ticket
+
+- intent: vande_bharat
+  examples: |
+    - What is vande bharat
+    - what is vande bharat express
+    - vande bharat express
+    - When did vande bharat start running
+    - inaugration of vande bharat
+    - tell me something about vande bharat
+    - mika, what is vande bharat
+    - how much distance will vande bharat cover
+    - Where does vande bharat start from
+    - which is the last stop of vande bharat
+    - which is the first stop of vande bharat
+    - where does vande bharat stop
+    - who inaugrated vande bharat
+
+- intent: prime_minister
+  examples: |
+    - Prime minister
+    - prime minister of India
+    - indian prime minister
+    - who is the indian prime minister
+    - who is the prime minister of india
+    - who is the prime minister
+    - who is the current prime minister
+    - who is the latest prime minister
+    - is Narendra Modi the prime minister of india
+    - is Narendra Modi the prime minister
+    - is Narendra Modi the indian prime minister
+    - tell me the name of the prime minister
+    - tell me the name of prime minister of india
+    - tell me the name of the indian prime minister
+    - who is Narendra Modi
+    - what is Narendra Modi
+    - indian prime minister's name
+    - prime minister of india's name
+    - prime minister's name
+
+- intent: president
+  examples: |
+    - president
+    - president of India
+    - indian president
+    - who is the indian president
+    - who is the president of india
+    - who is the president
+    - who is the current president
+    - who is the latest president
+    - is Droupadi Murmu the president of india
+    - is Droupadi Murmu the president
+    - is Droupadi Murmu the indian president
+    - tell me the name of the president
+    - tell me the name of president of india
+    - tell me the name of the indian president
+    - who is Droupadi Murmu
+    - what is Droupadi Murmu
+    - indian president's name
+    - president of india's name
+    - president's name
+
+- intent: chief minister
+  examples: |
+    - chief minister
+    - chief minister of kerala
+    - kerala chief minister
+    - who is the chief minister of kerala
+    - who is the chief minister
+    - who is the current chief minister
+    - who is the latest chief minister
+    - is Pinarayi Vijayan the chief minister of kerala
+    - is Pinarayi Vijayan the chief minister
+    - is Pinarayi Vijayan the kerala chief minister
+    - tell me the name of the chief minister
+    - tell me the name of chief minister of kerala
+    - tell me the name of the kerala chief minister
+    - who is Pinarayi Vijayan
+    - what is Pinarayi Vijayan
+    - kerala chief minister's name
+    - chief minister of kerala's name
+    - chief minister's name
+
+
+- intent: governor
+  examples: |
+    - governor
+    - governor of kerala
+    - kerala governor
+    - who is the governor of kerala
+    - who is the governor
+    - who is the current governor
+    - who is the latest governor
+    - is Arif Mohammed Khan the governor of kerala
+    - is Arif Mohammed Khan the governor
+    - is Arif Mohammed Khan the kerala governor
+    - tell me the name of the governor
+    - tell me the name of governor of kerala
+    - tell me the name of the kerala governor
+    - who is Arif Mohammed Khan
+    - what is Arif Mohammed Khan
+    - kerala governor's name
+    - governor of kerala's name
+    - governor's name
+
+- intent: india_independence
+  examples: |
+    - When did India gain freedom
+    - When was India free
+    - When did India become independent
+    - When did India gain independence
+    - How did India gain independence
+    - How did India become free
+    - Independence day
+    - August 15th
+    - What is the importance of August 15th
+    - What is the significance of August 15th
+    - In which year did India gain independence
+
+- intent: online_booking
+  examples: |
+    - How to book tickets online
+    - How can I buy tickets online
+    - Where do I buy tickets online
+    - Can we book tickts online
+    - Online booking
+    - Online ticket booking
+    - Can I book tickets in my phone
+    - Can I book tickets on my laptop
+    - How do I book tickets online
+    - Is there online ticket booking for kochi metro
+    - does kochi metro have online ticket booking
+    - kochi metro online ticket booking
+
+- intent: celebration_party
+  examples: |
+    - Can I have a party in the Kochi metro
+    - How do I celebrate my birthday in the kochi metro
+    - How do I give a surprise a party in the kochi metro
+    - How to throw a party in the kochi metro
+    - Do I have to book in advance to have a party in the kochi metro
+    - Can I celebrate my birthday in the kochi metro
+    - Can I celebrate my anniversary in the kochi metro
+    - Can I celebrate in the Kochi metro
+
+- intent: alcohol_offence
+  examples: |
+    - Alcohol in the metro
+    - Is alcohol allowed in the metro
+    - Can I drink alcohol in the metro
+    - Is it illegal to drink in the metro
+    - Will I be arrested for drinking in the metro
+    - How can I drink alcohol in the metro
+    - I want to drink alcohol in the metro
+    - I want alcohol
+    - beer in the metro
+    - Is beer allowed in the metro
+    - Can I drink beer in the metro
+    - Will I be arrested for drinking in the metro
+    - How can I drink beer in the metro
+    - I want to drink beer in the metro
+    - I want beer
+    
+- intent: eating_drinking
+  examples: |
+    - food in the metro
+    - Is food allowed in the metro
+    - Can I eat food in the metro
+    - Is it illegal to eat in the metro
+    - Will I be arrested for eating in the metro
+    - How can I eat food in the metro
+    - I want to eat in the metro
+    - I want food in the metro
+    - I want food
+
+- intent: smoking
+  examples: |
+    - smoking in the metro
+    - Is smoking allowed in the metro
+    - Can I smoke in the metro
+    - Is it illegal to smoke in the metro
+    - Will I be arrested for smoking in the metro
+    - How can I smoke in the metro
+    - I want to smoke in the metro
+    - I want to smoke cigarettes in the metro
+    - I want to smoke
+    - I want cigarette
+
+- intent: fort_kochi
+  examples: |
+    - how to go to fort kochi
+    - nearest station to fort kochi
+    - how can I go to fort kochi through metro
+    - I want to go to fort kochi
+    - How far is fort kochi from the Maharaja's College metro station
+    - Is there metro to fort kochi
+    - which is the nearest station to fort kochi
+    - fort kochi nearest metro station
+
+- intent: marine_drive
+  examples: |
+    - how to go to marine drive
+    - nearest station to marine drive
+    - how can I go to marine drive through metro
+    - I want to go to marine drive
+    - How far is fort marine drive from the MG Road metro station
+    - How far is fort marine drive from the Maharaja's College metro station
+    - Is there metro to marine drive
+    - which is the nearest station to marine drive
+    - marine drive nearest metro station
+
+
+- intent: restaurant
+  examples: |
+    - which is the best restaurant near me?
+    - which is the nearest restaurant?
+    - which is the nearest hotel?
+    - what is the name of the best restaurant near me?
+    - mika, tell me the the best restaurant near me?
+    - mika, which is the best restaurant near me?
+    - which is the best hotel near me?
+    - what is the name of the best hotel near me?
+    - mika, tell me the the best hotel near me?
+    - mika, which is the best hotel near me?
+    - mika, which is the nearest five star hotel?
+    - mika, tell me the the best hotel near me?
+    - I am hungry. Where should I go to eat?
+    - Where can I go to eat?
+    - Where can I eat kerala cuisine?
+    - Where can I go to eat kerala cuisine?
+    - Where can go to eat malayali food?
+    - Where can I eat malayali food?
+    - where will I get malayali food?
+    - where can I get food?
+    - Where can I eat food?
+    - Where can I have food?
+    - Where can I eat a meal?
+    - Where can I have a meal?
+    - To eat, where should I go?
+- intent: kerala_facts
+  examples: |
+    - Tell me something about kerala
+    - Tell me something interseting about kerala
+    - tell me a fact about kerala
+    - What do you know about kerala? 
+    - Tell me an interseting fact about kerala
+    - Tell me a kerala fact.
+    - Mika, Tell me something about kerala
+    - Mika, Tell me something interseting about kerala
+    - Mika, tell me a fact about kerala
+    - Mika, What do you know about kerala?
+    - Mika, Tell me an interseting fact about kerala
+    - Mika, Tell me a kerala fact.
+- intent: india_facts
+  examples: |
+    - Tell me something about India
+    - Tell me something interseting about India
+    - tell me a fact about India
+    - What do you know about India?
+    - Tell me an interseting fact about India
+    - Tell me a India fact.
+    - Mika, Tell me something about India
+    - Mika, Tell me something interseting about India
+    - Mika, tell me a fact about India
+    - Mika, What do you know about India?
+    - Mika, Tell me an interseting fact about India
+    - Mika, Tell me India fact.
+- intent: tourist_spots
+  examples: |
+    - Tell me a good place to visit near here
+    - what are the best tourist destinations to visit?
+    - what are the best tourist spots to visit?
+    - tell me a few good tourist spots to visit?
+    - mika, Tell me a good place to visit near here
+    - mika, what are the best tourist destinations to visit?
+    - mika, what are the best tourist spots to visit?
+    - mika, tell me a few good tourist spots to visit?
+    - mika, I am feeling bored. Where can I go to visit?
+    - mika, I am feeling bored. Which are the places that I can visit?
+    - mika, Where can I go to click good pictures?
+    - mika, Where can I go to relax?
+    - mika, tell me a few good places to visit in kerala?
+    - mika, tell me a few places to visit in kerala?
+    - what are the best tourist spots to visit in kerala?
+    - tell me a few good tourist spots to visit in kerala?
+    - mika, Tell me a good place to visit near here
+    - mika, what are the best tourist destinations to visit in kerala?
+    - mika, I want to go somewhere. Where can I go to visit?
+    - mika, I want to go somewhere. Which are the places that I can visit?
+    - mika, Where can I go to click good pics?
+    - good place to visit near me
+    - best tourist destinations to visit
+    - best tourist spots to visit
+    - few good tourist spots to visit
+    - mika, Where can I go to get good pictures?
+    - mika, Where can I go to get good photos?
+    - mika, Where can I go to get good pics?
+    - mika, Where can I go to relax?
+    - mika, tell me a few good places to visit in kerala?
+    - mika, tell me a few places to visit in kerala?
+    - tourist spots.
+    - tourist destinations.
+    - mika, tell me a few good places to visit in kerala please?
+    - mika, tell me a few places to visit in kerala please?
+    - mika, please tell me a few good places to visit in kerala?
+    - mika, please tell me a few places to visit in kerala?
+- intent: hospitals
+  examples: |
+    - Mika, tell me the nearest hospital?
+    - Mika, tell me the nearest clinic?
+    - where can I find a doctor? 
+    - I need to go to a hospital, tell me where
+    - Is there any hospitals nearby?
+    - hospital
+    - I need a doctor
+- intent: station_wifi
+  examples: |
+    - is the wifi free?
+    - is there wifi in the station.
+    - Can i get wifi.
+    - internet.
+
+- intent: jokes
+  examples: |
+    - tell me a joke.
+    - tell me a joke, mika.
+    - tell me something funny, mika.
+    - are you funny, mika?
+    - make me laugh mika.
+    - mika make me laugh.
+    - I feel sad.
+    - make me laugh.
+    - I want to laugh.
+    - make me happy
+    - mika, make me happy.
+    - tell me something to laugh about.
+    - say a joke.
+    - crack a joke.
+    - do you think you can make me laugh?
+    - can you make me laugh?
+    - give me jokes
+- intent: accomodation
+  examples: |
+    - will accomodation be provided?
+    - is there wifi at accommodation?
+    - is the wifi at accomodation free?
+    - will stay be provided?
+    - Where can I sleep?
+    - is there locker rooms to keep luggage?
+    - is there storage facilities for bags?
+    - what is the rate for the accommodation?
+    - will there be stay?
+    - where can I stay?
+    - I want to sleep.
+    - I want to rest.
+    - Mika, I am tired. Where can I sleep?
+    - how much should I pay for the stay?
+    - Is the accommodation safe?
+    - I am tired
+    - I am so tired mika.
+- intent: station_facilities
+  examples: |
+    - what are the facilities in the metro?
+    - Mika, what are the facilities in the metro?
+    - Is there a ladies compartment in the metro?
+    - Is there a ladies compartment?
+    - where are the toilets in the metro?
+    - where are the toilets in metro?
+    - Is there a.c. in the metro?
+    - Is the metro air conditioned?
+    - does the metro have security cameras?
+    - Is the metro under surveillance?
+    - Mika, what are the facilities here?
+    - what are the facilities in metro station?
+    - is there a wheel chair ramp around here?
+    - are the washrooms wheelchair friendly?
+    - are the toilets wheelchair friendly?
+    - are the restrooms wheelchair friendly?
+    - can I use wheelchair in the toilets?
+    - can I use wheelchair in the restrooms?
+
+- intent: lulu_mall
+  examples: |
+    - where is lulu mall?
+    - How can I get to lulu mall?
+    - Which is the nearest station to lulu mall?
+    - how far is the nearest metro station to lulu mall?
+    - nearest metro station to lulu mall
+    - can I reach lulu mall through metro?
+    - is there direct metro to lulu mall?
+    - how to reach lulu mall from [aluva](destination)
+    - how to reach lulu mall from [kochi](destination)
+    - how to reach lulu mall from [ernakulam](destination)
+    - Where is Lulu Mall Kochi found?
+    - I want to go to lulu mall.
+    - i want to go to lulu.      
+    - How can I get to lulu?
+    - Which is the nearest station to lulu?
+    - how far is the nearest metro station to lulu?
+    - nearest metro station to lulu
+    - loo loo
+    - looloo
+    - lulu
+- intent: cherai_beach
+  examples: |
+    - where is cherai beach?
+    - how to go to cherai beach?
+    - how to go to cherai beach using metro?
+    - Which is the nearest station to cherai beach?
+    - how far is the nearest metro station to cherai beach?
+    - nearest metro station to cherai beach
+    - can I reach cherai beach through metro?
+    - Where is cherai beach found?
+    - I want to go to cherai beach.
+    - I want to go to cherai.
+    - How can I get to cherai beach?
+    - how to reach cherai beach from [aluva](destination)
+    - how to reach cherai beach from [kochi](destination)
+    - how to reach cherai beach from [ernakulam](destination)
+- intent: india_politics
+  examples: |
+    - tell me something about Indian politics?
+    - Mika, name a few political parties of india.
+    - Which is the ruling party of India.
+    - Which is the ruling party of kerala
+    - what are some political parties?
+    - politics
+    - political parties.
+    - Indian political Parties
+- intent: random_facts
+  examples: |
+    - Mika, tell me something.
+    - Mika, tell me something random.
+    - Tell me an interesting fact.
+    - say something mika.
+    - Mika, tell me some random facts.
+    - Mika, tell me a fact.
+    - Mika, do you know anything?
+    - say something.
+- intent: love
+  examples: |
+    - Mika, I love you.
+    - I love you.
+    - Mika you are in my heart.
+    - You are the only on for me.
+    - You are the one for me.
+    - You are my one and only
+    - I see you in my dreams.
+    - I will die for you.
+    - I cannot live without you.
+    - You are the light of my life
+- intent: like
+  examples: |
+    - I like you.
+    - I have a crush on you.
+    - I adore you.
+    - You are very cute.
+    - I like your eyes.
+    - your eyes are beautiful.
+    - You are pretty.
+    - You are very beautiful.
+    - You are beautiful.
+- intent: first_aid
+  examples: |
+    - Mika, where can I get help?
+    - Mika, where can I get Medical help?
+    - where is medical assistance in metro?
+    - tell me how to to get to medical help?
+    - please help me
+    - where can i get first aid?
+    - where is first aid?
+    - where to get medical help?
+    - help me
+    - mika, I need medical help
+- intent: station_facilities_queries
+  examples: |
+    - where are the stairs?
+    - where are the elevators?
+    - are there lifts in the station? where are they?
+    - where is sanitizer?
+    - where can I get sanitizer?
+    - where are the stairs?
+    - where is the steps?
+- intent: snack
+  examples: |
+    - where can I eat something around here?
+    - Where can I drink water?
+    - Is there water around here?
+    - Where can I drink something?
+    - I am thirsty.
+    - I am hungry.
+    - I want food.
+    - I want juice.
+    - I want juice.Where should I go?
+
+
+- lookup: station
+  examples: |    
+    - Aluva
+    - Pulinchodu
+    - Companypady
+    - Ambattukavu
+    - Muttom
+    - Kalamassery
+    - Cochin University
+    - Pathadipalam
+    - Edapally
+    - Changampuzha Park
+    - Palarivattom
+    - JLN Stadium
+    - Kaloor
+    - Lissie
+    - MG Road
+    - Maharaja's College
+    - Ernakulam North
+    - Edappally
+    - Changampuzha Park 
+    - Palarivattom 
+    - Vallarpadam
+    - CUSAT   
+    - Vyttila
+    - Thaikoodam
+    - Pettah
+    - Vadakkekotta 	
+    - SN Junction
