@@ -1,0 +1,482 @@
+version: "3.1"
+
+stories:
+- story: ask about station wifi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_wifi
+  - action: utter_station_wifi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: tell jokes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: jokes
+  - action: utter_jokes
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+- story: ask about accomodation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accomodation
+  - action: utter_accomodation
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about station facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities
+  - action: utter_station_facilities
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about lulu mall
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: utter_
+  - action: utter_utter_
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: ask about cherai beach
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cherai_beach
+  - action: utter_cherai_beach
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: ask about india politics
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: india_politics
+  - action: utter_india_politics
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about random facts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: random_facts
+  - action: utter_random_facts
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about love
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: love
+  - action: utter_love
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about first aid
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: first_aid
+  - action: utter_first_aid
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+- story: ask about station facilities queries
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities_queries
+  - action: utter_station_facilities_queries
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: ask about snack
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: snack
+  - action: utter_snack
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- story: ask about station wifi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_wifi
+  - action: utter_station_wifi
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: tell jokes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: jokes
+  - action: utter_jokes
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+
+- story: ask about accomodation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accomodation
+  - action: utter_accomodation
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: ask about station facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities
+  - action: utter_station_facilities
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: ask about lulu mall
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: utter_
+  - action: utter_utter_
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+- story: ask about cherai beach
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cherai_beach
+  - action: utter_cherai_beach
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+- story: ask about india politics
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: india_politics
+  - action: utter_india_politics
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: ask about random facts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: random_facts
+  - action: utter_random_facts
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: ask about love
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: love
+  - action: utter_love
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+- story: ask about first aid
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: first_aid
+  - action: utter_first_aid
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+
+- story: ask about station facilities queries
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities_queries
+  - action: utter_station_facilities_queries
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+utter_apologies
+- story: ask about snack
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: snack
+  - action: utter_snack
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_apologies
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - story: station wifi and facilities
+    steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_wifi
+  - action: utter_station_wifi
+  - intent: station_facilities
+  - action: utter_station_facilities
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: jokes and dance and songs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: jokes
+  - action: utter_jokes
+  - intent: jokes
+  - action: utter_jokes
+  - intent: kids_songs
+  - action: utter_kids_songs
+  - intent: kids_dance
+  - action: utter_kids_dance
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+- story: accomodation 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accomodation
+  - action: utter_accomodation
+  - intent: restaurant
+  - action: utter_restaurant
+  - intent: tourists_spots
+  - action: utter_tourist_spots
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: accomodation 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accomodation
+  - action: utter_accomodation
+  - intent: restaurant
+  - action: utter_restaurant
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: accomodation 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accomodation
+  - action: utter_accomodation
+  - intent: hospitals
+  - action: utter_hospitals
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: station facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities
+  - action: utter_station_facilities
+  - intent: station_facilities_queries
+  - action: utter_station_facilities_queries
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: lulu mall
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lulu_mall
+  - action: utter_lulu_mall
+  - intent: cherai_beach
+  - action: utter_cherai_beach
+  - intent: tourist_spots
+  - action: utter_tourist_spots
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: cherai beach
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cherai_beach
+  - action: utter_cherai_beach
+  - intent: tourist_spots
+  - action: utter_tourist_spots
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: india politics
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: india_politics
+  - action: utter_india_politics
+  - intent: prime_minister
+  - action: utter_prime_minister
+  - intents: president
+  - actions: utter_president
+  - intent: india_independence
+  - action: utter_india_independence
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: random facts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: random_facts
+  - action: utter_random_facts
+  - intent: india_facts
+  - action: utter_india_facts
+  - intent: kerala_facts
+  - action: utter_kerala_facts
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: love
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: love
+  - action: utter_love
+  - intent: like
+  - action: utter_like
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: first aid
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: first_aid
+  - action: utter_first_aid
+  - intent: hopsitals
+  - action: utter_hospitals
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+- story: station facilities queries
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: station_facilities_queries
+  - action: utter_station_facilities_queries
+  - intent: station_faciities
+  - action: utter_station_facilties
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: snacks
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: snack
+  - action: utter_snack
+  - intent: eating_drinking
+  - action: utter_eating_drinking
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
