@@ -1,0 +1,366 @@
+version: "3.1"
+
+stories:
+
+- story: kmrl md
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kmrl_md
+  - action: utter_kmrl_md
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: mika name
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mika_name
+  - action: utter_mika_name
+  - intent: affirm
+  - action: utter_thank
+
+- story: mika info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mika_info
+  - action: utter_mika_info
+  - intent: affirm
+  - action: utter_thank
+
+- story: mika details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mika_details
+  - action: utter_mika_info
+  - intent: affirm
+  - action: utter_thank
+
+- story: ticket concession
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ticket_concession
+  - action: utter_ticket_concession
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: kmrl mascot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kmrl_mascot
+  - action: utter_kmrl_mascot
+  - intent: affirm
+  - action: utter_thank
+
+- story: kmrl mascot2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kmrl_mascot
+  - action: utter_kmrl_mascot
+  - intent: kmrl_water_metro_mascot
+  - action: utter_kmrl_water_metro_mascot
+  - intent: affirm
+  - action: utter_thank
+
+- story: kmrl water mascot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kmrl_water_metro_mascot
+  - action: utter_kmrl_water_metro_mascot
+  - intent: affirm
+  - action: utter_thank
+
+- story: kmrl water mascot2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: water_metro_kmrl_mascot
+  - action: utter_water_metro_kmrl_mascot
+  - intent: kmrl_mascot
+  - action: utter_mascot
+  - intent: affirm
+  - action: utter_thank
+
+- story: kids songs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kids_songs
+  - action: utter_kids_songs
+  - intent: affirm
+  - action: utter_thank
+
+- story: kids songs2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kids_songs
+  - action: utter_kids_songs
+  - intent: affrim
+  - intent: kids_dance
+  - action: utter_kids_dance
+  - intent: affirm
+  - action: utter_thank
+
+- story: kids dance
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kids_dance
+  - action: utter_kids_dance
+  - intent: affirm
+  - action: utter_thank
+  - intent: kids_songs
+  - action: utter_kids_songs
+  - intent: affrim
+  - action: utter_thank
+
+- story: kids dance2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kids_dance
+  - action: utter_kids_dance
+  - intent: affirm
+  - action: utter_thank
+
+- story: bus info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bus_info
+  - action: utter_bus_info
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: onam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: onam
+  - action: utter_onam
+  - intent: affirm
+  - action: utter_thank
+  
+- story: misc ques
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: misc_ques
+  - action: utter_misc_ques
+  - intent: affirm
+  - action: utter_thank  
+
+- story: thrissur pooram
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thrissur_pooram
+  - action: utter_thrissur_pooram
+  - intent: affirm
+  - action: utter_thank 
+
+- story: kerala boat festival
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kerala_boat_festival
+  - action: utter_kerala_boat_festival
+  - intent: affirm
+  - action: utter_thank 
+
+- story: vishu
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vishu
+  - action: utter_vishu
+  - intent: affirm
+  - action: utter_thank 
+
+- story: biennale
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: biennale
+  - action: utter_biennale
+  - intent: affirm
+  - action: utter_thank 
+
+- story: weather info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather_info
+  - action: utter_weather_info
+  - intent: affirm
+  - action: utter_thank 
+
+- story: travel 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ticket_concession
+  - action: utter_ticket_concession
+  - intent: travel_passes
+  - action: utter_travel_passes
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+
+
+
+
+
+
+
+
+
+
+  - story: kmrl md 2
+    steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kmrl_md
+  - action: utter_kmrl_md
+  - intent: kmrl_mascot
+  - action: utter_kmrl_mascot
+  - intent: water_metro
+  - action: utter_water_metro
+  - intent: affirm
+  - action: utter_thank
+
+
+- story: mika name 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mika_name
+  - action: utter_mika_name
+  - intent: mika_info
+  - action: utter_mika_info
+  - intent: affirm
+  - action: utter_thank
+
+- story: mika info 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mika_info
+  - action: utter_mika_info
+  - intent: fisat
+  - action: utter_fisat
+  - intent: ieee
+  - action: utter_ieee
+  - intent: affirm
+  - action: utter_thank
+
+- story: ticket concession 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ticket_concession
+  - action: utter_ticket_concession
+  - intent: travel_passes
+  - action: utter_travel_passes
+  - intent: ticket_counter
+  - action: utter_ticket_counter
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_thank
+
+- story: onam 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: onam
+  - action: utter_onam
+  - intent: vishu
+  - action: utter_vishu
+  - intent: thrissur_pooram
+  - action: utter_thrissur_pooram
+  - intent: kerala_boat_festival
+  - action: utter_kerala_boat_festival
+  - intent: affirm
+  - action: utter_thank
+  
+- story: misc ques 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: misc_ques
+  - action: utter_misc_ques
+  - intent: random_facts
+  - action: utter_random_facts
+  - intent: jokes
+  - action: utter_jokes
+  - intent: affirm
+  - action: utter_thank  
+
+- story: thrissur pooram 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thrissur_pooram
+  - action: utter_thrissur_pooram
+  - intent: onam
+  - action: utter_onam
+  - intent: vishu
+  - action: utter_vishu
+  - intent: kerala_boat_festival
+  - action: utter_kerala_boat_festival
+  - intent: affirm
+  - action: utter_thank 
+
+- story: kerala boat festival 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kerala_boat_festival
+  - action: utter_kerala_boat_festival
+  - intent: thrissur_pooram
+  - action: utter_thrissur_pooram
+  - intent: onam
+  - action: utter_onam
+  - intent: vishu
+  - action: utter_vishu
+  - intent: affirm
+  - action: utter_thank 
+
+- story: vishu 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vishu
+  - action: utter_vishu
+  - intent: kerala_boat_festival
+  - action: utter_kerala_boat_festival
+  - intent: thrissur_pooram
+  - action: utter_thrissur_pooram
+  - intent: onam
+  - action: utter_onam
+  - intent: affirm
+  - action: utter_thank 
+
+- story: biennale 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: biennale
+  - action: utter_biennale
+  - intent: tourist_spots
+  - action: utter_tourist_spots
+  - intent: kerala_facts
+  - action: utter_kerala_facts
+  - intent: affirm
+  - action: utter_thank
