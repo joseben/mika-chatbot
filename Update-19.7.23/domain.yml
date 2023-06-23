@@ -74,6 +74,7 @@ intents:
   - marine_drive
   - how_are_you
   - utter_thank
+  - mika_details
 
 
 responses:
